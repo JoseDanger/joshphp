@@ -10,7 +10,7 @@
 <?php
 $i = 0;
 while ($i <10){
-echo "<P> this is the ".$i. "th line</P>php">
+echo "<P> this is the ".$i. "th line</P>";
     $i++;
 }
 
