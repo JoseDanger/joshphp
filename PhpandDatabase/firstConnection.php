@@ -5,12 +5,12 @@ $dusername = "a7vsd5p699o1mif7";
 $dpassword = "uu5y3xzmj399r0ua";
 $dbname = "m2bsi2ekjab5fc3a";
 
-$con = new mysqli($server, $dbusername, $dbpassword $dbdomain);
+$conn = new mysqli($server, $dusername, $dpassword, $dbname);
 
-if ($con->error){
+if ($conn->error){
     echo $conn->error;
 }else {
-    echo "Connected"
+    echo "Connected";
 }
 
 // will write a query

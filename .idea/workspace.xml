@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/firstConnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/firstConnection.php" afterDir="false" />
-    </list>
+    <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +56,7 @@
       <workItem from="1604352670793" duration="1175000" />
       <workItem from="1604354541994" duration="24000" />
       <workItem from="1604354632941" duration="457000" />
-      <workItem from="1604432283573" duration="4447000" />
+      <workItem from="1604432283573" duration="4788000" />
     </task>
     <servers />
   </component>
