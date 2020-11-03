@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/joshphp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -52,6 +47,7 @@
       <updated>1604352669558</updated>
       <workItem from="1604352670793" duration="1175000" />
       <workItem from="1604354541994" duration="24000" />
+      <workItem from="1604354632941" duration="457000" />
     </task>
     <servers />
   </component>
@@ -59,10 +55,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="518" y="277" key="Github.ShareDialog" timestamp="1604354386529">
+    <state x="518" y="277" key="Github.ShareDialog" timestamp="1604354655995">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="518" y="277" key="Github.ShareDialog/0.0.1280.760@0.0.1280.760" timestamp="1604354386529" />
+    <state x="518" y="277" key="Github.ShareDialog/0.0.1280.760@0.0.1280.760" timestamp="1604354655995" />
     <state x="423" y="84" key="Github.UntrackedFilesDialog" timestamp="1604354392544">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
