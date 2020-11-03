@@ -21,7 +21,7 @@ $result = mysqli_query($conn, $sql);
 
 // show my result
 while ($row = $result->fetch_assoc()){
-    echo $row["ID"];
+    echo $row["ID"].;
 }
 echo "testing";
 
