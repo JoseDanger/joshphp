@@ -15,7 +15,9 @@ if ($con->error){
 
 // will write a query
 
+$sql = "select * from users";
 //execute the query
+
 
 // show my result
 
