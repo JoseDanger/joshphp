@@ -17,7 +17,7 @@ if ($con->error){
 
 $sql = "select * from users";
 //execute the query
-
+$result = mysqli_query($conn, $sql);
 
 // show my result
 
