@@ -12,7 +12,7 @@ $i = 0;
 while ($i <10){
 //echo "<p> this is the ".$i. "th line</p>";
 ?>
-<p> This is the th line</p>
+<p> This is the th<?php echo $i; ?> line</p>
 <?php
 
 $i++;
