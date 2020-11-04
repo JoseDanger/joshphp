@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PhpandDatabase/showAllUsers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhpandDatabase/firstConnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/firstConnection.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
       <workItem from="1604352670793" duration="1175000" />
       <workItem from="1604354541994" duration="24000" />
       <workItem from="1604354632941" duration="457000" />
-      <workItem from="1604432283573" duration="5819000" />
+      <workItem from="1604432283573" duration="6209000" />
     </task>
     <servers />
   </component>
@@ -66,6 +67,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="351" y="15" key="#PHP" timestamp="1604439706727">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="351" y="15" key="#PHP/0.0.1280.760@0.0.1280.760" timestamp="1604439706727" />
     <state x="518" y="277" key="Github.ShareDialog" timestamp="1604354655995">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
