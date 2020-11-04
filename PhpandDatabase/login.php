@@ -1,6 +1,5 @@
 <?php
 $username = $_POST["username"];
-<br>;
 $password = $_POST["password"];
 
     echo "username:".$username;
@@ -19,3 +18,9 @@ if ($conn->error){
 }else {
     echo "Connected";
 }
+//create a query
+$sql = "select * from users 
+where username =".$username."and password =".$password;
+
+//run my query
+$result = mysqli_query($conn, $sql);
