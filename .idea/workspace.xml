@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/showAllUsers.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/showAllUsers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhpandDatabase/phpForm_Post.html" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/phpForm_Post.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PhpandDatabase" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,8 +50,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp" />
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase" />
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,7 +66,7 @@
       <workItem from="1604354541994" duration="24000" />
       <workItem from="1604354632941" duration="457000" />
       <workItem from="1604432283573" duration="6209000" />
-      <workItem from="1604521023604" duration="1877000" />
+      <workItem from="1604521023604" duration="2178000" />
     </task>
     <servers />
   </component>
