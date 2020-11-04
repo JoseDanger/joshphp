@@ -24,3 +24,12 @@ where username =".$username."and password =".$password;
 
 //run my query
 $result = mysqli_query($conn, $sql);
+}
+if (result->num_rows == 1){
+    echo"your have wrong login";
+    while ($row =$result->fetch_assoc()){
+        echo $row["firstname"];
+    }
+}else{
+    echo "wrong username or password";
+}
