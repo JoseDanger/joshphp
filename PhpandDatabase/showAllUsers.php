@@ -16,6 +16,7 @@
         <th>Phone</th>
 
     </tr>
+
     <?php
     //create a database connection
     $server = "http://fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com/";
