@@ -18,7 +18,7 @@ if ($conn->error){
 $sql = "select * from users";
 //execute the query
 $result = mysqli_query($conn, $sql);
-
+echo $sql;
 // show my result
 while ($row = $result->fetch_assoc()){
     echo $row["ID"];
