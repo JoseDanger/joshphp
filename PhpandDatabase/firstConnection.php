@@ -1,7 +1,7 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+//ini_set('display_errors', 1);
+//ini_set('display_startup_errors', 1);
+//error_reporting(E_ALL);
 
 //create a database connection
 $server = "fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
@@ -22,8 +22,8 @@ if ($conn->error){
 $sql = "select * from users";
 //execute the query
 $result = mysqli_query($conn, $sql);
-echo "row number:".$result->num_rows;
-echo "testing";
+//echo "row number:".$result->num_rows;
+//echo "testing";
 // show my result
 while ($row = $result->fetch_assoc()){
     echo $row["ID"];
