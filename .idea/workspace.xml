@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhpandDatabase/firstConnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/firstConnection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -67,7 +67,8 @@
       <workItem from="1604354541994" duration="24000" />
       <workItem from="1604354632941" duration="457000" />
       <workItem from="1604432283573" duration="6209000" />
-      <workItem from="1604521023604" duration="3750000" />
+      <workItem from="1604521023604" duration="4337000" />
+      <workItem from="1604535675938" duration="237000" />
     </task>
     <servers />
   </component>
@@ -91,9 +92,13 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="479" y="296" key="NewPhpFileDialog/0.0.1280.760@0.0.1280.760" timestamp="1604521062346" />
-    <state x="141" y="24" key="SettingsEditor" timestamp="1604352707702">
+    <state x="141" y="24" key="SettingsEditor" timestamp="1604535964437">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="141" y="24" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1604352707702" />
+    <state x="141" y="24" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1604535964437" />
+    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup" timestamp="1604525159744">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1604525159744" />
   </component>
 </project>
