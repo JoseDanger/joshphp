@@ -26,13 +26,13 @@ $result = mysqli_query($conn, $sql);
 //echo "testing";
 // show my result
 while ($row = $result->fetch_assoc()){
-    echo $row["ID"];
-    echo $row["FirstName"];
-    echo $row["lastName"];
-    echo $row["username"];
-    echo $row["Password"];
-    echo $row["address"];
-    echo $row["phoneNumber"];
+    echo "<br>".$row["ID"];
+    echo "<br>".$row["FirstName"];
+    echo "<br>".$row["lastName"];
+    echo "<br>".$row["username"];
+    echo "<br>".$row["Password"];
+    echo "<br>".$row["address"];
+    echo "<br>".$row["phoneNumber"];
 }
 
 
