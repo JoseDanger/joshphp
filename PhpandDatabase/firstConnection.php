@@ -19,6 +19,7 @@ $sql = "select * from users";
 //execute the query
 $result = mysqli_query($conn, $sql);
 echo "row number:".$result->num_rows;
+echo "testing";
 // show my result
 while ($row = $result->fetch_assoc()){
     echo $row["ID"];
@@ -29,6 +30,6 @@ while ($row = $result->fetch_assoc()){
     echo $row["address"];
     echo $row["phoneNumber"];
 }
-echo "testing";
+
 
 ?>
