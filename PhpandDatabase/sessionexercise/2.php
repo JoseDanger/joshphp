@@ -5,6 +5,6 @@
 //get session value
 $message = $_SESSION["Message"];
 echo "Message" .$message;
-$Password = $_SESSION["Password"];
-echo "Password".$Password;
+//$Password = $_SESSION["Password"];
+//echo "Password".$Password;
 

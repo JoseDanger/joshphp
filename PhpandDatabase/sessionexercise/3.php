@@ -5,6 +5,6 @@
 //get session value
 $message = $_SESSION["Message"];
 echo "Message" .$message;
-$color = $_SESSION["color"];
-echo "color".$color;
+//$color = $_SESSION["color"];
+//echo "color".$color;
 

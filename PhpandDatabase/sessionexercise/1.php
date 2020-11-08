@@ -4,6 +4,6 @@
 //get session value
 $message = $_SESSION["Message"];
 echo "Message" .$message;
-$Username = $_SESSION["Username"];
-    echo "Username".$Username;
+//$Username = $_SESSION["Username"];
+//    echo "Username".$Username;
 
