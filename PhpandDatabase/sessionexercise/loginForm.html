@@ -1,18 +1,21 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>phpForm</title>
+</head>
+<body>
+<form action="login.php" method="post">
+    <input name="username" type="text" placeholder="Username">
+    <input name="password" type="password" placeholder="Password">
+    <input type="submit" value="login">
 
-//Start a session
-
-//Set values to session variables
-//$_SESSION["Username"] = "Josh";
-//$_SESSION["Password"] = "Cramond";
-//$_SESSION["color"] = "red";
-//$_SESSION["Address"] = "123 road road";
 if (isset($_POST["Message"])){
-    echo "<p>I have a post message in this page</p>";
-    @session_start();
-    $_SESSION["Message"] = $_POST["Message"];
+echo "<p>I have a post message in this page</p>";
+@session_start();
+$_SESSION["Message"] = $_POST["Message"];
 }else{
-    echo"<p>Please post a message</p>";
+echo"<p>Please post a message</p>";
 }
 ?>
 <html>
@@ -32,5 +35,7 @@ if (isset($_POST["Message"])){
 
 </form>
 
+</body>
+</html>
 </body>
 </html>
