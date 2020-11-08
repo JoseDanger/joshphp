@@ -1,4 +1,5 @@
 <?php
+
 //Start a session
 @session_start();
 //Set values to session variables
