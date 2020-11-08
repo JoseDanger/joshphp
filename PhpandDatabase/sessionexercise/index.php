@@ -1,7 +1,7 @@
 <?php
 
 //Start a session
-@session_start();
+
 //Set values to session variables
 //$_SESSION["Username"] = "Josh";
 //$_SESSION["Password"] = "Cramond";
@@ -9,6 +9,8 @@
 //$_SESSION["Address"] = "123 road road";
 if (isset($_POST["Message"])){
     echo "<p>I have a post message in this page</p>";
+    @session_start();
+    $_SESSION["Message"] = $_POST["Message"];
 }else{
     echo"<p>Please post a message</p>";
 }
