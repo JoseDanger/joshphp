@@ -1,36 +1,15 @@
-<?php
-
-//Start a session
-
-//Set values to session variables
-//$_SESSION["Username"] = "Josh";
-//$_SESSION["Password"] = "Cramond";
-//$_SESSION["color"] = "red";
-//$_SESSION["Address"] = "123 road road";
-if (isset($_POST["Message"])){
-    echo "<p>I have a post message in this page</p>";
-    @session_start();
-    $_SESSION["Message"] = $_POST["Message"];
-}else{
-    echo"<p>Please post a message</p>";
-}
-?>
-<html>
-<head>Session Exercise</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>phpForm</title>
+</head>
 <body>
-<ul>
-    <li><a href="1.php"> Page 1</a> </li>
-    <li><a href="2.php"> Page 2</a> </li>
-    <li><a href="3.php"> Page 3</a> </li>
-    <li><a href="4.php"> Page 4</a> </li>
-    <li><a href="5.php"> Page 5</a> </li>
-
-</ul>
-<form action="<?php $_SESSION["PHP_SELF"]; ?>" method="Post">
-<input name="Message" type="text" placeholder="Message here">
-<input type="Submit" value="Post">
+<form action="login.php" method="post">
+    <input name="username" type="text" placeholder="Username">
+    <input name="password" type="password" placeholder="Password">
+    <input type="submit" value="login">
 
 </form>
-
 </body>
 </html>
