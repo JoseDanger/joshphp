@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="" />
+    <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PhpandDatabase/sessionexercise/1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhpandDatabase/sessionexercise/2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhpandDatabase/sessionexercise/3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhpandDatabase/sessionexercise/4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhpandDatabase/sessionexercise/5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhpandDatabase/sessionexercise/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PhpandDatabase" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,7 +73,9 @@
       <workItem from="1604354632941" duration="457000" />
       <workItem from="1604432283573" duration="6209000" />
       <workItem from="1604521023604" duration="4337000" />
-      <workItem from="1604535675938" duration="1335000" />
+      <workItem from="1604535675938" duration="1478000" />
+      <workItem from="1604538520103" duration="28000" />
+      <workItem from="1604865019821" duration="817000" />
     </task>
     <servers />
   </component>
@@ -85,10 +95,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="423" y="84" key="Github.UntrackedFilesDialog/0.0.1280.760@0.0.1280.760" timestamp="1604354392544" />
-    <state x="479" y="296" key="NewPhpFileDialog" timestamp="1604521062346">
+    <state x="479" y="296" key="NewPhpFileDialog" timestamp="1604865512798">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="479" y="296" key="NewPhpFileDialog/0.0.1280.760@0.0.1280.760" timestamp="1604521062346" />
+    <state x="479" y="296" key="NewPhpFileDialog/0.0.1280.760@0.0.1280.760" timestamp="1604865512798" />
     <state x="141" y="24" key="SettingsEditor" timestamp="1604535964437">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
