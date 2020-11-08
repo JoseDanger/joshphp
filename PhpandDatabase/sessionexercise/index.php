@@ -8,7 +8,7 @@
 //$_SESSION["color"] = "red";
 //$_SESSION["Address"] = "123 road road";
 if (isset($_POST["message"])){
-    echo "<p>I have a post message in this page</p>"
+    echo "<p>I have a post message in this page</p>";
 }else{
     echo"<p>Please post a message</p>";
 }

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/sessionexercise/5.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/sessionexercise/5.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhpandDatabase/sessionexercise/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/sessionexercise/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +69,7 @@
       <workItem from="1604521023604" duration="4337000" />
       <workItem from="1604535675938" duration="1478000" />
       <workItem from="1604538520103" duration="28000" />
-      <workItem from="1604865019821" duration="2785000" />
+      <workItem from="1604865019821" duration="3749000" />
     </task>
     <servers />
   </component>
