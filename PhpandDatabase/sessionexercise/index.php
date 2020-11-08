@@ -7,7 +7,7 @@
 //$_SESSION["Password"] = "Cramond";
 //$_SESSION["color"] = "red";
 //$_SESSION["Address"] = "123 road road";
-if (isset($_POST["message"])){
+if (isset($_POST["Message"])){
     echo "<p>I have a post message in this page</p>";
 }else{
     echo"<p>Please post a message</p>";
@@ -24,7 +24,7 @@ if (isset($_POST["message"])){
     <li><a href="5.php"> Page 5</a> </li>
 
 </ul>
-<form action="<?php $_SESSION["PHP_SELF"]; ?>" method="post" ">
+<form action="<?php $_SESSION["PHP_SELF"]; ?>" method="post">
 <input name="Message" type="text" placeholder="Message here">
 <input type="Submit" value="Post">
 
