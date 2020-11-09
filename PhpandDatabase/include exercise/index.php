@@ -6,7 +6,12 @@
 </head>
 <body>
 
-<div id="header">Menu, login, pictures</div>
+<div id="header">
+    <?php
+    include "page1.php";
+    ?>,
+
+        login, pictures</div>
 <div id="main"> contents</div>
 <div id="footer">contact information</div>
 </body>
