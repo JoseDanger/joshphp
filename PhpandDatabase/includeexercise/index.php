@@ -11,6 +11,7 @@
     <?php
     include "Menu.php";
     ?>
+    <?php include "page3.php";?>
 <?php include "Image.php"; ?>
 
     <form action="<?php $_SESSION["PHP_SELF"]; ?>" method="Post">
