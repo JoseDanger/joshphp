@@ -13,17 +13,11 @@
     ?>
 <?php include "Image.php"; ?>
 
-    <form action="recieve.php" method="get">
-    <input name="username" type="text" placeholder="Username">
-    <input name="password" type="password" placeholder="Password">
-    <input name="myNumber" type="number" placeholder="Give a number">
-    <input name="myColor" type="color" placeholder="Select a color">
-    <select name="mySelect">
-        <option value="Adult">Adult</option>
-        <option value="Child">Child</option>
-    </select>
-    <input type="submit" value="Sent">
-</form>
+    <form action="<?php $_SESSION["PHP_SELF"]; ?>" method="Post">
+        <input name="Message" type="text" placeholder="Message here">
+        <input type="Submit" value="Post">
+
+    </form>
 
 
 </div>
