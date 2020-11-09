@@ -11,6 +11,22 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
     $conn = new mysqli($server, $dusername, $dpassword, $dbname);
     $sql = "select * from users 
     where username ='$username' and password ='$password'";
+
+    //run my query
+    $result = mysqli_query($conn, $sql);
+//4. show result
+    if ($result->num_rows == 1){
+        echo"your have right login";
+        while ($row =$result->fetch_assoc()){
+            echo $row["firstname"];
+            //start session
+            @session_start();
+            //set a session variable
+            $_SESSION["firstname"] = $row["firstname"];
+        }
+    }else{
+        echo "wrong username or password";
+    }
 }
 ?>
 
