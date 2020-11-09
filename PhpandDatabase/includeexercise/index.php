@@ -8,7 +8,7 @@
 
 <div id="header">
     <?php
-    include "page1.php";
+    include "Menu.php";
     ?>
 
         login, pictures</div>
