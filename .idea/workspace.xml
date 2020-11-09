@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PhpandDatabase/include exercise/JS/Script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PhpandDatabase/include exercise/Page 1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PhpandDatabase/include exercise/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PhpandDatabase/include exercise/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PhpandDatabase/include exercise/page 2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PhpandDatabase/include exercise/page 3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PhpandDatabase/include exercise/page 4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PhpandDatabase/include exercise/page 5.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/sessionexercise/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/sessionexercise/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhpandDatabase/include exercise/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/include exercise/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +75,7 @@
       <workItem from="1604538520103" duration="28000" />
       <workItem from="1604865019821" duration="6884000" />
       <workItem from="1604883154536" duration="37000" />
-      <workItem from="1604886864502" duration="2253000" />
+      <workItem from="1604886864502" duration="2651000" />
     </task>
     <servers />
   </component>

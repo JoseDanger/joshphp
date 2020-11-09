@@ -9,7 +9,7 @@
 <div id="header">
     <?php
     include "page1.php";
-    ?>,
+    ?>
 
         login, pictures</div>
 <div id="main"> contents</div>
