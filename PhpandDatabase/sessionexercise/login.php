@@ -1,11 +1,12 @@
 <?php
+//get post from the form
 $username = $_POST["username"];
 $password = $_POST["password"];
 
-    echo "username:".$username;
-    echo "password:".$password;
+echo "username:".$username;
+echo "password:".$password;
 
-    //create database connection
+//create database connection
 $server = "http://fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com/";
 $dusername = "a7vsd5p699o1mif7";
 $dpassword = "uu5y3xzmj399r0ua";
@@ -22,9 +23,10 @@ if ($conn->error){
 $sql = "select * from users 
 where username ='".$username."' and password ='".$password."'";
 
-//run my query
+//run my query --> we need database connection and sql query
 $result = mysqli_query($conn, $sql);
 
+//show the result
 if ($result->num_rows == 1){
     echo"your have wrong login";
     while ($row =$result->fetch_assoc()){
