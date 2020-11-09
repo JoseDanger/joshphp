@@ -10,31 +10,7 @@
     <input name="password" type="password" placeholder="Password">
     <input type="submit" value="login">
 
-if (isset($_POST["Message"])){
-echo "<p>I have a post message in this page</p>";
-@session_start();
-$_SESSION["Message"] = $_POST["Message"];
-}else{
-echo"<p>Please post a message</p>";
-}
-?>
-<html>
-<head>Session Exercise</head>
-<body>
-<ul>
-    <li><a href="1.php"> Page 1</a> </li>
-    <li><a href="2.php"> Page 2</a> </li>
-    <li><a href="3.php"> Page 3</a> </li>
-    <li><a href="4.php"> Page 4</a> </li>
-    <li><a href="5.php"> Page 5</a> </li>
-
-</ul>
-<form action="<?php $_SESSION["PHP_SELF"]; ?>" method="Post">
-<input name="Message" type="text" placeholder="Message here">
-<input type="Submit" value="Post">
-
 </form>
-
 </body>
 </html>
 </body>
