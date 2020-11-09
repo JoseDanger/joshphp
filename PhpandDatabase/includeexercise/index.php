@@ -11,8 +11,7 @@
     <?php
     include "Menu.php";
     ?>
-
-        login, pictures</div>
+<?php include "headerimage.php"; ?>
 <div id="main"> contents</div>
 <div id="footer">contact information</div>
 </body>

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/PhpandDatabase/includeexercise/Image.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/includeexercise/Image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhpandDatabase/includeexercise/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/includeexercise/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,7 @@
       <workItem from="1604538520103" duration="28000" />
       <workItem from="1604865019821" duration="6884000" />
       <workItem from="1604883154536" duration="37000" />
-      <workItem from="1604886864502" duration="4733000" />
+      <workItem from="1604886864502" duration="5050000" />
     </task>
     <servers />
   </component>
@@ -114,9 +115,9 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="141" y="24" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1604535964437" />
-    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup" timestamp="1604525159744">
+    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup" timestamp="1604954806280">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1604525159744" />
+    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1604954806280" />
   </component>
 </project>
