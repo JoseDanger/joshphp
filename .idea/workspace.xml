@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/sessionexercise/1.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/otherexercise/sessionexercise/1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/sessionexercise/2.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/otherexercise/sessionexercise/2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/sessionexercise/3.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/otherexercise/sessionexercise/3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/sessionexercise/4.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/otherexercise/sessionexercise/4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/sessionexercise/5.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/otherexercise/sessionexercise/5.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/sessionexercise/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/otherexercise/sessionexercise/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/sessionexercise/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/otherexercise/sessionexercise/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/sessionexercise/loginForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/otherexercise/sessionexercise/loginForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhpandDatabase/includeexercise/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/includeexercise/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +52,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase\otherexercise" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase\sessionexercise" />
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase" />
@@ -82,7 +78,7 @@
       <workItem from="1604538520103" duration="28000" />
       <workItem from="1604865019821" duration="6884000" />
       <workItem from="1604883154536" duration="37000" />
-      <workItem from="1604886864502" duration="3858000" />
+      <workItem from="1604886864502" duration="4266000" />
     </task>
     <servers />
   </component>
