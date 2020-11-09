@@ -32,7 +32,7 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
 
 <form action="<?php $_SESSION["PHP_SELF"]; ?>" method="Post">
     <input name="username" type="text" placeholder="Username">
-    <input name="password" type="text" placeholder="Password">
+    <input name="password" type="password" placeholder="Password">
     <input type="Submit" value="Post">
 
 </form>

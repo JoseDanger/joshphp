@@ -14,13 +14,6 @@
     <?php include "page3.php";?>
 <?php include "Image.php"; ?>
 
-    <form action="<?php $_SESSION["PHP_SELF"]; ?>" method="Post">
-        <input name="Message" type="text" placeholder="Message here">
-        <input name="Username" type="text" placeholder="username">
-        <input name="password" type="text" placeholder="password">
-        <input type="Submit" value="submit">
-
-    </form>
 
 
 </div>
