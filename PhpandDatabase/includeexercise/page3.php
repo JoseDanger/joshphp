@@ -38,3 +38,12 @@ if ($result->num_rows == 1){
     echo "wrong username or password";
 }
 
+?>
+
+<form action="<?php $_SESSION["PHP_SELF"]; ?>" method="Post">
+    <input name="Username" type="text" placeholder="Username">
+    <input name="Password" type="text" placeholder="Password">
+    <input type="Submit" value="Post">
+
+</form>
+
