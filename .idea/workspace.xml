@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/includeexercise/Page1.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/includeexercise/Menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/includeexercise/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/includeexercise/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhpandDatabase/includeexercise/page2.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/includeexercise/Image.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
       <workItem from="1604538520103" duration="28000" />
       <workItem from="1604865019821" duration="6884000" />
       <workItem from="1604883154536" duration="37000" />
-      <workItem from="1604886864502" duration="2978000" />
+      <workItem from="1604886864502" duration="3431000" />
     </task>
     <servers />
   </component>
