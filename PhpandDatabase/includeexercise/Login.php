@@ -16,7 +16,7 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
     $result = mysqli_query($conn, $sql);
 //4. show result
     if ($result->num_rows == 1){
-        echo"your have right login";
+        echo"your have loged in ";
         while ($row =$result->fetch_assoc()){
             echo $row["firstname"];
             //start session

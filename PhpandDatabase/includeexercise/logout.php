@@ -5,7 +5,5 @@
 //kill all sessions
 @session_destroy();
 ?>
-<script>
-    window.history.back();
+header(string: 'location; index.php)
 
-</script>
