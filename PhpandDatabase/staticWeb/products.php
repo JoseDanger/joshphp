@@ -16,5 +16,5 @@ while ($row = $result->fetch_assoc()) {
     echo $row = ["ProductName"];
     echo $row = ["PricePerUnit"];
     echo $row = ["Category"];
-    echo $row = ["image"]
+    echo $row = ["image"];
      }
