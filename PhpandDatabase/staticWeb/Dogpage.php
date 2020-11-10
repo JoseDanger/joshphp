@@ -21,7 +21,9 @@
     <table style="width:100%">
         <center>
 
-
+            <?php
+            include "products.php";
+            ?>
             <tr>
                 <td><img src="images/Products/Dog products/Acres dog food.jpg" height="150px" width="150px"  border="5"></td>
                 <td><img src="images/Products/Dog products/Apollo chicke.jpg" height="150px" width="150px"border="5"></td>
