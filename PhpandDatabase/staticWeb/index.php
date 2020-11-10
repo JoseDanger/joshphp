@@ -47,9 +47,6 @@
                 <img src="images/dog/Picture2.jpg" height="303" width="302" border = "7px"/><br>
                 <h3><b>Pedigree Chicken With Rice: was $30.99 <br> <u>now</u> <br><h2><b></b>$24.79</b></h2></b></h3>
                 <br><br><br>
-                <img src="images/Cat/5b7b244e230c48.80505224.png"height="303" width="302" border = "7px"/><br>
-
-                <h3><b> Omega Plus: New Zealand Salmon: was $24.99 <br> <u>now</u> <br><h2><b>$19.00</b></h2></b></h3>
 
 <br><br><br> <Button><a href="About%20Us.html"><b>ABOUT US</b></a></Button>
             <br>

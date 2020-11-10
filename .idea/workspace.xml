@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/includeexercise/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/includeexercise/Login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/includeexercise/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/includeexercise/logout.php" afterDir="false" />
-    </list>
+    <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../staticWeb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PhpandDatabase" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -53,13 +50,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase" />
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase\sessionexercise" />
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase\otherexercise" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase\sessionexercise" />
-      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase" />
-      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -80,7 +77,7 @@
       <workItem from="1604865019821" duration="6884000" />
       <workItem from="1604883154536" duration="37000" />
       <workItem from="1604886864502" duration="8119000" />
-      <workItem from="1605037582826" duration="2897000" />
+      <workItem from="1605037582826" duration="3426000" />
     </task>
     <servers />
   </component>
