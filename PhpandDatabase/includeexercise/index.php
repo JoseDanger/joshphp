@@ -11,7 +11,7 @@
     <?php
     include "Menu.php";
     ?>
-    <?php include "page3.php";?>
+    <?php include "Login.php";?>
 <?php include "Image.php"; ?>
 
 

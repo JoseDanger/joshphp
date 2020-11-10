@@ -22,12 +22,18 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
             //start session
             @session_start();
             //set a session variable
+            $_SESSION["userID"] =$row["ID"];
             $_SESSION["firstname"] = $row["firstname"];
         }
     }else{
         echo "wrong username or password";
     }
 }
+?>
+<?php
+if (!isset($_SESSION["userID"])){
+
+
 ?>
 
 <form action="<?php $_SESSION["PHP_SELF"]; ?>" method="Post">
@@ -36,4 +42,9 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
     <input type="Submit" value="Post">
 
 </form>
-
+<?php
+} else{
+?>
+<a href="logout.php"
+<?php
+    ?>
