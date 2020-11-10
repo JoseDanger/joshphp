@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+
+    font-family: "Calibri Light";
+    background: white;
+}
+
+
+.header
+{
+    margin-left: 0px;
+    padding: 0px;
+}
+
+button {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 50px;
+    width: 8cm;
+    length: 300px;
+    border-radius: 50px;
+    background-color: #4cb0ff;
+    color: black;
+    cursor: pointer;
+    border: 5px solid black;
+    transition: all 1s;
+    font-size: x-large;
+
+}
+
+
+
+button:hover {
+    color: black;
+    border: 10px solid black;
+    border-radius: 50px;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+footer {
+    width: 100%
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    color: white;
+    fill: black;
+    height: 230px;
+    width: 100%;
+    border: 5px solid black;
+}
+p {
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    height: 90px;
+    width: 30cm;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50px;
+    background-color: #37A7FF;
+    color: black;
+    border: 5px solid black;
+    transition: all 1s;
+    font-size: 70px;
+}
+#featureimage.hover{
+    margin: 10cm;
+}
+
+#searchImage{
+    margin-left: 10px;
+}
+
+
+

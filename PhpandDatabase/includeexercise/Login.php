@@ -45,6 +45,6 @@ if (!isset($_SESSION["userID"])){
 <?php
 } else{
 ?>
-<a href="logout.php"
+<a 'href="logout.php">logout</a>';
 <?php
     ?>
