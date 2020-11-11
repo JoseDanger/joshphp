@@ -92,9 +92,8 @@ h1 {
 }
 
 #showProduct{
-    display: block;
-    alignment: center;
-    width: 70%;
+    display: inline-block;
+
 
 }
 
