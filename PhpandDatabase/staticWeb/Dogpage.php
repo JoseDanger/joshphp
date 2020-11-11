@@ -25,7 +25,7 @@
             include "products.php";
             ?>
             <tr>
-                <td><img src="images/Products/Dog products/Acres dog food.jpg" height="150px" width="150px"  border="5"></td>
+                <td><img src="it should be the image" height="150px" width="150px"  border="5"></td>
                 <td><img src="images/Products/Dog products/Apollo chicke.jpg" height="150px" width="150px"border="5"></td>
                 <td><img src="images/Products/Dog products/Black Hawk.jpg"height="150px" width="150px" border="5"></td>
                 <td></td>
@@ -44,7 +44,7 @@
             </tr>
 
             <tr>
-                <td>Omega Plus </td>
+                <td>it should the name </td>
                 <td>Hills Science Diet</td>
                 <td>Chef</td>
                 <td></td>
@@ -61,7 +61,7 @@
                 <td>Chef</td>
                 <td></td>
             </tr>
-            <td> $15 check <br><input type="checkbox" id="CheCkout" name="add to cart"> Add To Cart <link rel="stylesheet" href="C:\Users\joshu\Desktop\HTML_petfoodswebsiteproject\websites\Cart\index.html"><command> </td>
+            <td> it should be price <br><input type="checkbox" id="CheCkout" name="add to cart"> Add To Cart <link rel="stylesheet" href="C:\Users\joshu\Desktop\HTML_petfoodswebsiteproject\websites\Cart\index.html"><command> </td>
             <td> $15 check <br><input type="checkbox" id="CheCkout" name="add to cart"> Add To Cart <link rel="stylesheet" href="C:\Users\joshu\Desktop\HTML_petfoodswebsiteproject\websites\Cart\index.html"><command> </td>
             <td> $15 check <br><input type="checkbox" id="CheCkout" name="add to cart"> Add To Cart <link rel="stylesheet" href="C:\Users\joshu\Desktop\HTML_petfoodswebsiteproject\websites\Cart\index.html"><command> </td>
             <td></td>

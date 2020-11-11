@@ -12,9 +12,10 @@ $result = mysqli_query($conn, $sql);
 
 // show my result
 while ($row = $result->fetch_assoc()) {
-    echo $row["ID"];
-    echo $row["ProductName"];
-    echo $row["PricePerUnit"];
-    echo $row["Category"];
-    echo $row["image"];
+   ?>
+    <img src="<?php echo $row["image"]; ?>" height="150px" width="150px"border="5"><br>
+    <h3><?php echo $row["ProductName"]; ?></h3>
+    <p><?php echo $row["PricePerUnit"]; ?></p>
+<?php
+
 }
