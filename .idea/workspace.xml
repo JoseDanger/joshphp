@@ -2,169 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/.idea/staticWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/.idea/staticWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/About Us.html" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/About Us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/BIRDS.html" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/BIRDS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/Cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/Dogpage.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Dogpage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/FISH.html" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/FISH.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/Otherpets.html" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Otherpets.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/RodentPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/RodentPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/catpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/catpage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Cart etc/Cart.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Cart etc/Cart.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Cart etc/search-icon-large.jpg.png" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Cart etc/search-icon-large.jpg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Cat/5b7b244e230c48.80505224.png" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Cat/5b7b244e230c48.80505224.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Cat/Pictur1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Cat/Pictur1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Cat/Picture1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Cat/Picture1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Cat/Picture3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Cat/Picture3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Main Images/About us.jpg.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Main Images/About us.jpg.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Main Images/Birds.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Main Images/Birds.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Main Images/Cart Real.jpg.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Main Images/Cart Real.jpg.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Main Images/Fish.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Main Images/Fish.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Main Images/Other Pets Real.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Main Images/Other Pets Real.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Main Images/Rodents.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Main Images/Rodents.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Main Images/cats.jpg.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Main Images/cats.jpg.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Main Images/dogs real.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Main Images/dogs real.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Main Images/main.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Main Images/main.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Other/fish.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Other/fish.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Bird Products/Energy Pellets.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Bird Products/Energy Pellets.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Bird Products/Feed the birds.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Bird Products/Feed the birds.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Bird Products/Harmony wild bird.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Bird Products/Harmony wild bird.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Bird Products/Kaytee safflower.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Bird Products/Kaytee safflower.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Bird Products/Kaytee wild bird.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Bird Products/Kaytee wild bird.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Bird Products/Parrot mix.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Bird Products/Parrot mix.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Bird Products/Pasta Blend.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Bird Products/Pasta Blend.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Bird Products/Peckish seed and nut.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Bird Products/Peckish seed and nut.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Bird Products/Raff exotic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Bird Products/Raff exotic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Bird Products/Raff.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Bird Products/Raff.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Bird Products/Topflight seed mix.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Bird Products/Topflight seed mix.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Bird Products/Wagners wild bird.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Bird Products/Wagners wild bird.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Bird Products/Wild bird seed mix.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Bird Products/Wild bird seed mix.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Bird Products/feathers friends.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Bird Products/feathers friends.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Bird Products/herbal greens.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Bird Products/herbal greens.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Bird Products/pennington wild bird.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Bird Products/pennington wild bird.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Bird Products/topflight energy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Bird Products/topflight energy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/Benevo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/Benevo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/Black hawk chicken and rice.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/Black hawk chicken and rice.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/Chef jellimeat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/Chef jellimeat.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/Drools complete nutrition.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/Drools complete nutrition.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/Friskies fillets.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/Friskies fillets.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/Glucco support.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/Glucco support.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/Hills Hairball control.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/Hills Hairball control.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/Hills indoor.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/Hills indoor.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/Hills light.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/Hills light.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/Hills tender chicken.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/Hills tender chicken.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/Iams proactive health.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/Iams proactive health.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/Iams proactive.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/Iams proactive.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/Iams.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/Iams.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/Micho.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/Micho.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/Natura health.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/Natura health.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/Nutrience original.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/Nutrience original.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/One Adult.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/One Adult.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/One vibrant maturity.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/One vibrant maturity.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/Proplan kitten.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/Proplan kitten.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/Purina cat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/Purina cat.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/Vegan pet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/Vegan pet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/Whiskas beef and lamb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/Whiskas beef and lamb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/Whiskas protein.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/Whiskas protein.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/Ziwi Peak.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/Ziwi Peak.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/black hawk chicken and ham.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/black hawk chicken and ham.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Cat products/gourmet beef and heart.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Cat products/gourmet beef and heart.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Acres dog food.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Acres dog food.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Apollo chicke.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Apollo chicke.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Black Hawk lamb and rice.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Black Hawk lamb and rice.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Black Hawk.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Black Hawk.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Black hawk chicken.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Black hawk chicken.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Blackhawk fish and potato.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Blackhawk fish and potato.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Champ Adult.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Champ Adult.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Grain tree lamb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Grain tree lamb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Harringtons.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Harringtons.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Healthy Cuisine.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Healthy Cuisine.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Hills active adult.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Hills active adult.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Hills.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Hills.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Iams Puppy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Iams Puppy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/My dog kangaroo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/My dog kangaroo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Nutrience.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Nutrience.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Pedegree vital.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Pedegree vital.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Prescription diet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Prescription diet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Primal.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Primal.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Pro plan all size.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Pro plan all size.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Puppy chiot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Puppy chiot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Royal Canine bulldog.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Royal Canine bulldog.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Tux Value pack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Tux Value pack.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Working dog.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Working dog.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/Zealandia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/Zealandia.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Dog products/kucho Adult.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Dog products/kucho Adult.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/BettaMin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/BettaMin.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Blood Red Parrot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Blood Red Parrot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Breeder food.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Breeder food.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Dajana gold.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Dajana gold.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/First Bites.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/First Bites.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Frankie friends.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Frankie friends.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Goldfish flake.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Goldfish flake.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Goldfish pond.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Goldfish pond.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Goldfish.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Goldfish.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/JBL holiday.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/JBL holiday.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Koi and Goldfish.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Koi and Goldfish.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Kois Choice.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Kois Choice.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Micro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Micro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Mini bit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Mini bit.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Novo red.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Novo red.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Novo tom.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Novo tom.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Nutrafin max.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Nutrafin max.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Optimum.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Optimum.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Shrimp food.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Shrimp food.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Sinking carnivore pallets.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Sinking carnivore pallets.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Tetra bits.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Tetra bits.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Tetra color.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Tetra color.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Tetrafin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Tetrafin.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Tropical flakes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Tropical flakes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Vege.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Vege.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Vitalis Tropical.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Vitalis Tropical.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Wardley advanced.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Wardley advanced.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/Wardley shrimp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/Wardley shrimp.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/chichilid gold.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/chichilid gold.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/colour flakes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/colour flakes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Fish products/sinking chichild excell.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Fish products/sinking chichild excell.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Burgess hamster.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Burgess hamster.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Complete rat and mouse.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Complete rat and mouse.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Friends Farm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Friends Farm.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Kaytee Health.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Kaytee Health.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Kaytee supreme.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Kaytee supreme.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Lab diet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Lab diet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Little one.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Little one.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Manitoba.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Manitoba.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Mazuri diet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Mazuri diet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Mazuri rodent.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Mazuri rodent.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Nature.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Nature.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Peters.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Peters.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Rodent Blocks.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Rodent Blocks.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Rodent and more.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Rodent and more.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Salad drops.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Salad drops.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Selective.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Selective.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Smart heart.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Smart heart.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Sunburst.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Sunburst.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Tropical Carnival.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Tropical Carnival.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Twitchg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Twitchg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Vita Prima.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Vita Prima.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Vitosmart.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Vitosmart.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/Wagg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/Wagg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/origins balanced diet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/origins balanced diet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Products/Rodent products/versele laga.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Products/Rodent products/versele laga.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/Rodent/rodent.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/Rodent/rodent.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/dog/Picture2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/dog/Picture2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/dog/Picture5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/dog/Picture5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/dog/Resize/Picture2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/dog/Resize/Picture2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/images/dog/Resize/Picture4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/dog/Resize/Picture4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticWeb/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Category.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,13 +54,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp" />
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase\otherexercise" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase" />
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase\sessionexercise" />
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase\otherexercise" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -245,7 +86,7 @@
       <workItem from="1605123452975" duration="2547000" />
       <workItem from="1605397761370" duration="2630000" />
       <workItem from="1605401883812" duration="1840000" />
-      <workItem from="1605468857509" duration="2331000" />
+      <workItem from="1605468857509" duration="3439000" />
     </task>
     <servers />
   </component>
@@ -273,10 +114,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="315" y="102" key="NewPhpClassDialog/0.0.1280.760@0.0.1280.760" timestamp="1604951294018" />
-    <state x="479" y="296" key="NewPhpFileDialog" timestamp="1605469617036">
+    <state x="479" y="296" key="NewPhpFileDialog" timestamp="1605472232088">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="479" y="296" key="NewPhpFileDialog/0.0.1280.760@0.0.1280.760" timestamp="1605469617036" />
+    <state x="479" y="296" key="NewPhpFileDialog/0.0.1280.760@0.0.1280.760" timestamp="1605472232088" />
     <state x="141" y="24" key="SettingsEditor" timestamp="1604535964437">
       <screen x="0" y="0" width="1280" height="760" />
     </state>

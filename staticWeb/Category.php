@@ -19,5 +19,6 @@ $result = mysqli_query($conn,$sql);
 
 //4. show result
 while($row = $result->fetch_assoc()){
-    echo $row["ID"]." ".$row["Name"];
+    ?>
+<li><a href=""<?php echo $row["Name"]; ?></a></li>
 }
