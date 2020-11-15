@@ -14,7 +14,8 @@ $result = mysqli_query($conn, $sql);
 while ($row = $result->fetch_assoc()) {
    ?>
     <div id="showProduct">
-        <img src="<?php echo $row["image"]; ?>" height="150px" width="150px"border="5"><br>
+        <img src="<?php echo $row["image"]; ?>" height="150px" width="150px"border="5">
+        <br>
         <h3><?php echo $row["ProductName"]; ?></h3>
         <p><?php echo $row["PricePerUnit"]; ?></p>
     </div>
