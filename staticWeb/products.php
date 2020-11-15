@@ -6,7 +6,7 @@ $dbname = "m2bsi2ekjab5fc3a";
 
 $conn = new mysqli($server, $dusername, $dpassword, $dbname);
 
-$sql = "select * from PRODUCT";
+$sql = "select * from PRODUCT where category=1";
 
 $result = mysqli_query($conn, $sql);
 
