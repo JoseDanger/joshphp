@@ -20,6 +20,7 @@ while ($row = $result->fetch_assoc()) {
         <p><?php echo $row["PricePerUnit"]; ?></p>
     </div>
 
+
 <?php
 
 }
