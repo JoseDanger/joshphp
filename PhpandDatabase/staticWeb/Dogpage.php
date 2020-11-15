@@ -18,16 +18,19 @@
     <Button><b>WISHLIST</b></Button>
 
 <br><br>
+    <div width="100%" style="text-align: center">
+        <img src="images/Main Images/dogs real.jpg"  width="500px" border=10>/></div>
+    <br><br>
     <table style="width:100%">
         <center>
+
 
             <?php
             include "products.php";
             ?>
 
 
-<div width="100%" style="text-align: center">
-    <img src="images/Main Images/dogs real.jpg"  width="500px" border=10>/></div>
+
 
 <br><br>
     <Button><b><a href="index.php">HOME PAGE</a></b></Button>
