@@ -1,4 +1,10 @@
 <?php
+//take input from selected category
+if (isset($_GET["category"])){
+    echo "<h1>".$_GET["category"]."</h1>";
+}
+
+
 $server = "fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 $dusername = "a7vsd5p699o1mif7";
 $dpassword = "uu5y3xzmj399r0ua";
