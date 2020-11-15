@@ -32,9 +32,8 @@
         <div width="100%" style="text-align: center">
             <img src="images/Main Images/main.jpg" width = 500px border=10 /></div>
         <br><br>
-            <Button><a href="Dogpage.php"><b>DOGS</b></a></Button>
-            <Button><a href="Otherpets.html"><b>OTHER PETS</b></a></Button>
-            <Button><a href="catpage.html"><b>CATS</b></a></Button>
+<?php include "Category.php" ?>
+
     <br><br><br>
 
 

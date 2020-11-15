@@ -20,5 +20,7 @@ $result = mysqli_query($conn,$sql);
 //4. show result
 while($row = $result->fetch_assoc()){
     ?>
-<li><a href=""<?php echo $row["Name"]; ?></a></li>
+    <Button><a href="Dogpage.php"><b><?php echo $row["Name"]; ?></b></a></Button>
+
+<?php
 }
