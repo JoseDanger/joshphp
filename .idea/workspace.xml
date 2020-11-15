@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PhpandDatabase/staticWeb/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhpandDatabase/staticWeb/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/PhpandDatabase/staticWeb/Category.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <workItem from="1605123452975" duration="2547000" />
       <workItem from="1605397761370" duration="2630000" />
       <workItem from="1605401883812" duration="1840000" />
-      <workItem from="1605468857509" duration="1275000" />
+      <workItem from="1605468857509" duration="1996000" />
     </task>
     <servers />
   </component>

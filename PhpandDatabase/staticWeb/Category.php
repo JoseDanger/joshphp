@@ -15,6 +15,5 @@ $result = mysqli_query($conn,$sql);
 
 //4. show result
 while($row = $result->fetch_assoc()){
-    echo $row["ID"]." ".$row["ProductName"];
-
+    echo $row["ID"]." ".$row["Name"];
 }
