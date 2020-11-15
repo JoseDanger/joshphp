@@ -12,7 +12,13 @@ $dbname = "m2bsi2ekjab5fc3a";
 $conn = new mysqli($server, $dusername, $dpassword, $dbname);
 
 //2. create a query
-$sql = "select * from Category";
+//take input from selected category
+if (isset($_GET["category"])){
+    echo "<h1>".$_GET["category"]."</h1>";
+    $sql = "select * from products where category =".$_GET["category"];
+}else {
+    $sql = "select * from products";
+}
 
 //3. Run the query on that connection
 $result = mysqli_query($conn,$sql);
