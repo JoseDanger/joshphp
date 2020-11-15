@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticWeb/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/products.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +86,7 @@
       <workItem from="1605123452975" duration="2547000" />
       <workItem from="1605397761370" duration="2630000" />
       <workItem from="1605401883812" duration="1840000" />
-      <workItem from="1605468857509" duration="5373000" />
+      <workItem from="1605468857509" duration="5942000" />
     </task>
     <servers />
   </component>
@@ -120,9 +122,9 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="141" y="24" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1604535964437" />
-    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup" timestamp="1604954806280">
+    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup" timestamp="1605475196874">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1604954806280" />
+    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1605475196874" />
   </component>
 </project>
