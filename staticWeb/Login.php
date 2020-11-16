@@ -33,4 +33,5 @@ where username =".$username."and password =".$password;
 //run my query
 $result = mysqli_query($conn, $sql);
 }?>
+<br><br><Button><b><a href="index.php">HOME PAGE</a></b></Button><br><br>
 </body>

@@ -5,7 +5,7 @@
     <title>FISH</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
-</head>
+</head><centre>
 <body>
 
 <?php
@@ -35,15 +35,16 @@ if (mysqli_query($conn, $sql)) {
     ;
 
     echo "data has been inserted";
-    echo "<a href='index.php'>HOME</a>";
+    echo"<a href='index.php'>HOME</a>";
 }else{
     echo "data has not been inserted, please try again";
 }
 echo "<a href='index.php'>HOME</a>";
 ?>
-
-</form>
-</body>
+<br><br><br> <Button><a href="index.php"><b>BACK TO TOP</b></a></Button>
+<br>
+<br>
+<br>
 <footer>
     <b><p>Copyright &copy; 2020, ALL RIGHTS RESERVED</p></b>
     <br>
@@ -69,4 +70,3 @@ echo "<a href='index.php'>HOME</a>";
         </table>
         </p></b>
 </footer></center>
-</html>

@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PET FOODS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
 <?php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -23,4 +31,5 @@ while($row = $result->fetch_assoc()){
     <Button><a href="Dogpage.php?category=<?php echo $row["ID"];?>"><b><?php echo $row["Name"]; ?></b></a></Button>
 
 <?php
-}
+}?>
+</html>
