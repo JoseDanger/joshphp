@@ -7,7 +7,7 @@
     <script src="js/script.js"></script>
 </head>
 <body>
-<center></center>
+<center>
 <form action="action_page.php">
     <div class="container">
         <br><br>
@@ -15,6 +15,9 @@
         <p>Please fill in this form to create an account.</p>
         <hr>
 <br><br>
+        <div width="100%" style="text-align: center">
+            <img src="images/Main Images/main.jpg" width = 500px border=10 /></div>
+        <br><br>
         <label for="email"><b>Email</b></label>
         <input type="text" placeholder="Enter Email" name="email" id="email" required>
         <br><br>
