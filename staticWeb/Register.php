@@ -42,8 +42,7 @@
 
     <div class="container signin">
         <p>Already have an account? <a href="loginForm.html">Sign in</a>.</p>
-    </div>
-</form>
+
 </center>
 </body><br><br><br>
 <footer>
