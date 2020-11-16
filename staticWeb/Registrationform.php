@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>REGISTER ACCOUNT</title>
@@ -41,7 +41,7 @@
 
     <div class="container signin">
         <p>Already have an account? <button
-            <a href="loginForm.html">SIGN IN</a></button>.</p>
+            <a href="loginForm.html">SIGN IN</a></button></p>
 
 </center>
 </body><br><br><br>
