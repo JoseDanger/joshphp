@@ -8,12 +8,11 @@
 </head>
 <body>
 <center>
-<form method="post" action="Registration form.php">
+<form method="post" action="Registrationform.php">
 
-      action="action_page.php">
     <div class="container">
         <br><br>
-        <h1><b>Register</b></h1>
+        <h1><b>REGISTER</b></h1>
         <p>Please fill in this form to create an account.</p>
         <hr>
 <br><br>
