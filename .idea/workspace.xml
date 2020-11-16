@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticWeb/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,14 +52,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp" />
-      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase\otherexercise" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\staticWeb" />
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase" />
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase\sessionexercise" />
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp" />
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase\otherexercise" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -86,6 +86,7 @@
       <workItem from="1605397761370" duration="2630000" />
       <workItem from="1605401883812" duration="1840000" />
       <workItem from="1605468857509" duration="7192000" />
+      <workItem from="1605537242943" duration="643000" />
     </task>
     <servers />
   </component>
