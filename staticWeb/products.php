@@ -21,7 +21,12 @@ $sql="INSERT INTO `users`(`ID`, `FirstName`, `lastName`, `username`, `password`,
 VALUES (NULL ,'$firstname','$lastname','$username','$password','$address','$phone')";
 
 //3. run the query
-mysqli_query($conn, $sql);
+if (mysqli_query($conn, $sql)) {
+    ;
 
-echo "data has been inserted";
-echo "<a href='index.php'>HOME</a>";
+    echo "data has been inserted";
+    echo "<a href='index.php'>HOME</a>";
+}else{
+    echo "data has not been inserted, please try again"
+}
+echo "<a href='index.php' '>HOME</a>";
