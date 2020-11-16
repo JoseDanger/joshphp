@@ -27,7 +27,7 @@ if (mysqli_query($conn, $sql)) {
     echo "data has been inserted";
     echo "<a href='index.php'>HOME</a>";
 }else{
-    echo "data has not been inserted, please try again"
+    echo "data has not been inserted, please try again";
 }
 echo "<a href='index.php'>HOME</a>";
 ?>
