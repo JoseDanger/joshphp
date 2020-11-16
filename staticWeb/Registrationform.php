@@ -2,7 +2,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>FISH</title>
+    <title>REGISTER ACCOUNT</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
 </head>
