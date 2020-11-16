@@ -17,7 +17,7 @@
         <hr>
 <br><br>
         <div width="100%" style="text-align: center">
-            <img src="images/Main Images/main.jpg" width = 500px border=10 /></div>
+            <img src="images/MainImages/main.jpg" width = 500px border=10 /></div>
         <br><br>
         <label for="firstname"><b>First Name</b></label>
         <input type="text" placeholder="Enter First Name" name="firstname" id="firstname" required>
