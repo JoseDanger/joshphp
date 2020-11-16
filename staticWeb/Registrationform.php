@@ -36,7 +36,7 @@
         <hr>
         <br><br>
         <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-        <br><br> <button type="submit" class="registeration">REGISTER</button>
+        <br><br> <button type="submit" class="registeration"><b>REGISTER</b></button>
     </div>
 
     <div class="container signin">
