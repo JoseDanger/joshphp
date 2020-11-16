@@ -1,4 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CAT FOOD</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body><?php
 $username = $_POST["username"];
 $password = $_POST["password"];
 
@@ -24,4 +32,5 @@ where username =".$username."and password =".$password;
 
 //run my query
 $result = mysqli_query($conn, $sql);
-}
+}?>
+</body>

@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CAT FOOD</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
 <center
 <ul>
     <li><button><b><a href="loginForm.html">LOG IN</a>
@@ -12,3 +21,4 @@
 
 
 <br><br>
+</body>
