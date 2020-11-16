@@ -30,7 +30,7 @@ while ($row = $result->fetch_assoc()) {
         <form action="..." method="post">
             <input name="productID" value="<?php echo $row["ID"];?>" type="hidden">
             <input name="qty" type="number" placeholder="QTY">
-            <input type="submit" value="ADD TO CART"
+            <input type="submit" value="ADD TO CART">
         </form>
     </div>
 
