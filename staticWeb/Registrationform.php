@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>FISH</title>
@@ -25,22 +25,23 @@
         <label for="lastname"><b>Last Name</b></label>
         <input type="text" placeholder="Enter Last Name" name="lastname" id="lastname" required>
         <br><br>
-        <label for="phonenumber"><b>Phone Number</b></label>
+        <label for="phonenumber"><b>PHONE NUMBER</b></label>
         <input type="text" placeholder="Enter Phone Number" name="phonenumber" id="phonenumber" required>
         <br><br>
-        <label for="psw"><b>Password</b></label>
+        <label for="psw"><b>PASSWORD</b></label>
         <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
         <br><br>
-        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <label for="psw-repeat"><b>REPEAT PASSWORD</b></label>
         <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
         <hr>
         <br><br>
         <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-        <br><br> <button type="submit" class="registeration">Register</button>
+        <br><br> <button type="submit" class="registeration">REGISTER</button>
     </div>
 
     <div class="container signin">
-        <p>Already have an account? <a href="loginForm.html">Sign in</a>.</p>
+        <p>Already have an account? <button
+            <a href="loginForm.html">SIGN IN</a></button>.</p>
 
 </center>
 </body><br><br><br>

@@ -1,13 +1,7 @@
 <?php
-$firstname = $_POST["firstname"];
-$lastname = $_POST["lastname"];
-$username = $_POST["username"];
-$password = $_POST["password"];
-$address = $_POST["address"];
-$phone = $_POST["phonenumber"];
 
 
-//1. connect to database
+
 $server = "fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 $dusername = "a7vsd5p699o1mif7";
 $dpassword = "uu5y3xzmj399r0ua";
@@ -15,18 +9,30 @@ $dbname = "m2bsi2ekjab5fc3a";
 
 $conn = new mysqli($server, $dusername, $dpassword, $dbname);
 
-//create a query
-
-$sql="INSERT INTO `users`(`ID`, `FirstName`, `lastName`, `username`, `password`, `address`, `phoneNumber`) 
-VALUES (NULL ,'$firstname','$lastname','$username','$password','$address','$phone')";
-
-//3. run the query
-if (mysqli_query($conn, $sql)) {
-    ;
-
-    echo "data has been inserted";
-    echo "<a href='index.php'>HOME</a>";
-}else{
-    echo "data has not been inserted, please try again"
+//take input from selected category
+if (isset($_GET["category"])){
+    echo "<h1>".$_GET["category"]."</h1>";
+    $sql = "select * from PRODUCT where Category =".$_GET["category"];
+}else {
+    $sql = "select * from PRODUCT";
 }
-echo "<a href='index.php' '>HOME</a>";
+
+$result = mysqli_query($conn, $sql);
+
+// show my result
+while ($row = $result->fetch_assoc()) {
+    ?>
+    <div id="showProduct">
+        <img src="<?php echo $row["image"]; ?>" height="150px" width="150px"border="5">
+        <br>
+        <h3><?php echo $row["ProductName"]; ?></h3>
+        <p><?php echo $row["PricePerUnit"]; ?></p>
+        <form action="..." method="post">
+            <input name="productID" value="<?php echo $row["ID"];?>" type="hidden"
+        </form>
+    </div>
+
+
+    <?php
+
+}
