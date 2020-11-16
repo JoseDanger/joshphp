@@ -29,7 +29,8 @@
         <div width="100%" style="text-align: center">
             <img src="images/Main Images/main.jpg" width = 500px border=10 /></div>
         <br><br>
-<?php include "Category.php" ?>
+
+<?php include "Category.php" ?> <button><b><a href="AboutUs.html"> ABOUT US</a> </b></button>
 
     <br><br><br>
 
@@ -47,7 +48,7 @@
 
                 <h3><b> Omega Plus: New Zealand Salmon: was $24.99 <br> <u>now</u> <br><h2><b>$19.00</b></h2></b></h3>
 
-<br><br><br> <Button><a href="About%20Us.html"><b>ABOUT US</b></a></Button>
+<br><br><br> <Button><a href="index.php"><b>BACK TO TOP</b></a></Button>
             <br>
             <br>
             <br>
