@@ -40,8 +40,8 @@
     </div>
 
     <div class="container signin">
-        <p>Already have an account? <button
-            <a href="loginForm.html">SIGN IN</a></button></p>
+        <p>Already have an account? <br>
+            <button<a href="loginForm.html">SIGN IN</a></button></p>
 
 </center>
 </body><br><br><br>
