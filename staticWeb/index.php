@@ -21,9 +21,9 @@
         <b>SEARCH</b></Button>
     <Button><b>REGISTER ACCOUNT</b></Button>
     <br><br>
-    <Button><b><a href="" YOUR ACCOUNT</b></Button>
-    <Button><b><a href="Cart.html">CART/CHECKOUT</b></Button>
-    <Button><b><a href="" WISHLIST</b></Button></div>
+    <Button><b><a href=""> YOUR ACCOUNT</b></a></Button>
+    <Button><b><a href="Cart.html">CART/CHECKOUT</b></a></Button>
+    <Button><b><a href=""> WISHLIST</b></a></Button></div>
 
 
     <br><br>
