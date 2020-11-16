@@ -8,18 +8,26 @@
 </head>
 <body>
 <center>
-<form action="action_page.php">
+<form method="post" action="Register.php">
+
+      action="action_page.php">
     <div class="container">
         <br><br>
-        <h1>Register</h1>
+        <h1><b>Register</b></h1>
         <p>Please fill in this form to create an account.</p>
         <hr>
 <br><br>
         <div width="100%" style="text-align: center">
             <img src="images/Main Images/main.jpg" width = 500px border=10 /></div>
         <br><br>
-        <label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+        <label for="firstname"><b>First Name</b></label>
+        <input type="text" placeholder="Enter First Name" name="firstname" id="firstname" required>
+       <br><br>
+        <label for="lastname"><b>Last Name</b></label>
+        <input type="text" placeholder="Enter Last Name" name="lastname" id="lastname" required>
+        <br><br>
+        <label for="phonenumber"><b>Phone Number</b></label>
+        <input type="text" placeholder="Enter Phone Number" name="phonenumber" id="phonenumber" required>
         <br><br>
         <label for="psw"><b>Password</b></label>
         <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
@@ -29,11 +37,11 @@
         <hr>
         <br><br>
         <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-        <br><br> <button type="submit" class="registerbtn">Register</button>
+        <br><br> <button type="submit" class="registeration">Register</button>
     </div>
 
     <div class="container signin">
-        <p>Already have an account? <a href="#">Sign in</a>.</p>
+        <p>Already have an account? <a href="loginForm.html">Sign in</a>.</p>
     </div>
 </form>
 </center>
