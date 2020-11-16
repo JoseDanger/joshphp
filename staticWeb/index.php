@@ -16,13 +16,14 @@
 <p></p>
 
 <div>
-    <button><b><a>LOG IN </a></b></button>
-    <button><b>SEARCH</b><img id="searchImage" width="25px" src="images/Cart etc/search-icon-large.jpg.png"></Button>
+    <button><b><a href="loginForm.html">LOG IN </a></b></button>
+    <button><img id="searchImage" width="25px" src="images/Cart etc/search-icon-large.jpg.png">
+        <b>SEARCH</b></Button>
     <Button><b>REGISTER ACCOUNT</b></Button>
     <br><br>
-    <Button><b>YOUR ACCOUNT</b></Button>
+    <Button><b><a href="" YOUR ACCOUNT</b></Button>
     <Button><b><a href="Cart.html">CART/CHECKOUT</b></Button>
-    <Button><b>WISHLIST</b></Button></div>
+    <Button><b><a href="" WISHLIST</b></Button></div>
 
 
     <br><br>
@@ -50,7 +51,7 @@
 
                 <h3><b> Omega Plus: New Zealand Salmon: was $24.99 <br> <u>now</u> <br><h2><b>$19.00</b></h2></b></h3>
 
-<br><br><br> <Button><a href="About Us.html"><b>ABOUT US</b></a></Button>
+<br><br><br> <Button><a href="About%20Us.html"><b>ABOUT US</b></a></Button>
             <br>
             <br>
             <br>
