@@ -16,7 +16,7 @@ if (isset($_SESSION["orderedProductIDs"])){
         else
             //this situation only happens if there is none of the same product in our shopping cart
         array_push($orderedProductID, $productID); //add a new product into the array.
-        array_push($orderedProductQty. $qty);
+        array_push($orderedProductQty, $qty);
     }
 
 
