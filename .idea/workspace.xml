@@ -3,7 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Addacart.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Addacart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/BIRDS.html" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Old Page Design/BIRDS.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticWeb/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/FISH.html" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Old Page Design/FISH.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Otherpets.html" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Otherpets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Registrationpage.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Registrationpage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/RodentPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Old Page Design/RodentPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/catpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Old Page Design/catpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +98,7 @@
       <workItem from="1605537242943" duration="1911000" />
       <workItem from="1605552345623" duration="10495000" />
       <workItem from="1605565758859" duration="2562000" />
-      <workItem from="1605640982582" duration="5751000" />
+      <workItem from="1605640982582" duration="7372000" />
     </task>
     <servers />
   </component>

@@ -2,35 +2,33 @@
 //take the post from any product
 $productID = $_POST["productID"];
 $qty = $_POST["qty"];
-//1. Start a session
+//1. start a session
 @session_start();
-//2. get all set session variables
-// if i dont have an ordered product list in my session, i will create one.
+//2. get or set session variable
+// if I don't have an ordered products list in my session, I will create one
 if (isset($_SESSION["orderedProductIDs"])){
-    //if something has been added to our shopping cart
-    $orderedProductID = ["orderedProductIDs"];
-    $orderedProductQty = ["orderedProductQtys"];
-    if (in_array($productID, $orderedProductID)){
-        $index = array_search($productID, $orderedProductID);
-        $orderedProductQty[$index] + $qty;
-        else
-            //this situation only happens if there is none of the same product in our shopping cart
-        array_push($orderedProductID, $productID); //add a new product into the array.
-        array_push($orderedProductQty, $qty);
+    //if something has been in our sopping cart
+    $orderedProductIDs = $_SESSION["orderedProductIDs"];
+    $orderedProductQtys = $_SESSION["orderedProductQtys"];
+    if (in_array($productID, $orderedProductIDs)){
+        $index = array_search($productID, $orderedProductIDs);
+        $orderedProductQtys[$index] = $orderedProductQtys[$index] + $qty;
+    }else{
+        //this situation only happen if there is no same product in our shopping cart
+        array_push($orderedProductIDs, $productID); // append one at bottom of the array
+        array_push($orderedProductQtys, $qty);
     }
 
-
 }else{
-    // if nothing in our shopping cart yet
-    $orderedProductID = [];
-    $orderedProductQty = [];
-    array_push($orderedproductID, $productID);//append one at bottom of the array.
-    array_push($orderedproductID, $qty);
+    //if nothing in our shopping cart yet
+    $orderedProductIDs = [];
+    $orderedProductQtys = [];
+    array_push($orderedProductIDs, $productID); // append one at bottom of the array
+    array_push($orderedProductQtys, $qty);
 }
-//put the new ordered product lists back to session variable
-$_SESSION["orderedProductIDs"] = $orderedProductID;
-$_SESSION["orderedProductIDs"] = $orderedProductQty;
+//put the new ordered product lists back to session variables
+$_SESSION["orderedProductIDs"] = $orderedProductIDs;
+$_SESSION["orderedProductQtys"] = $orderedProductQtys;
 
-//Go back to previous page.
-header( 'Location:' . $_SERVER['HTTP_REFERER']);
-
+//go back to previous page
+header('Location: ' . $_SERVER['HTTP_REFERER']);

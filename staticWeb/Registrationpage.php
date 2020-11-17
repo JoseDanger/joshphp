@@ -70,3 +70,5 @@ echo "<a href='index.php'>HOME</a>";
         </table>
         </p></b>
 </footer></center>
+</centre>h
+</html>

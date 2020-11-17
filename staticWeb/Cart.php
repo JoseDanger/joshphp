@@ -1,19 +1,25 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 @session_start();
 
-
-$orderedProductIDs = ["orderedProductIDs"];
-$orderedProductQtys = ["orderedProductQtys"];
+$orderedProductIDs = $_SESSION["orderedProductIDs"];
+$orderedProductQtys = $_SESSION["orderedProductQtys"];
 
 $i = 0;
-    while($i<sizeof($orderedProductIDs)) {
-        $orderedProductID = $orderedProductIDs[$i];
-        $orderedProductQty = $orderedProductQtys[$i];
-        echo "<p>ID: $orderedProductID and Qty: $orderedProductQty</p>";
-        $productName = getProductNamebyProductID
-    }
+while ($i<sizeof($orderedProductIDs)){
+    $orderedProductID = $orderedProductIDs[$i];
+    $orderedProductQty = $orderedProductQtys[$i];
+    $productName = getProductNameByProductID($orderedProductID);
+    $price=getProductPriceByProductID($orderedProductID);
+    echo "<p>Name: $productName Qty: $orderedProductQty Unit Price: $price
+         Price: ($price*$orderedProductQty)</p>";
+    $i++;
+}
 
 
+function createDatabaseConnection(){
     //1. connect to database
     $server = "klbcedmmqp7w17ik.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
     $dbusername = "t8jnow42fmp1smpt";
@@ -21,62 +27,47 @@ $i = 0;
     $dbname = "k2nfay1osz1i59kc";
 
     $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
-    //2. query
-    $sql = "select ProductName from product where ID=$productID";
-    //3. run query
-    $result = mysqli_query($conn, $sql);
-
-    //4. show result
-    while ($row=$result->fetch_assoc()){
-        $name = $row["ProductName"];
-    }
-    Return $name;
+    return $conn;
 }
+
 /**
  * @name getProductNameByProductID
- * @param $ProductName
+ * @param $productID
  * @return product name
  */
-
-/**@name getProductNamebyProductID ...*/
-function getProductNamebyProductID($productID){
-    //1. connect to database
-    $server = "klbcedmmqp7w17ik.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-    $dbusername = "t8jnow42fmp1smpt";
-    $dbpassword = "fdavedw769oxw5pd";
-    $dbname = "k2nfay1osz1i59kc";
-
-    $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
+function getProductNameByProductID($productID){
+    //1. create a db connection
+    $conn = createDatabaseConnection();
     //2. query
-    $sql = "select ProductName from product where ID=$productID";
+    $sql = "select name from products where id=$productID";
+
+    //3. run query
+    $result = mysqli_query($conn, $sql);
+
+    //4. show result
+    while ($row = $result->fetch_assoc()){
+        $name = $row["name"];
+    }
+    return $name;
+}
+
+
+/**
+ * @name getProductPriceByProductID
+ * @param $productID
+ * @return product price
+ */
+function getProductPriceByProductID($productID){
+    //1. create a db connection
+    $conn = createDatabaseConnection();
+    //2. query
+    $sql = "select price from products where id=$productID";
     //3. run query
     $result = mysqli_query($conn, $sql);
 
     //4. show result
     while ($row=$result->fetch_assoc()){
-        $name = $row["ProductPriceByUnit"];
+        $price = $row["price"];
     }
-    Return $name;
+    return $price;
 }
-/**@name getProductPricePerUnitbyProductID ...*/
-function getProductPricePerUnitByProductID($productID){
-    //1. connect to database
-    $server = "klbcedmmqp7w17ik.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-    $dbusername = "t8jnow42fmp1smpt";
-    $dbpassword = "fdavedw769oxw5pd";
-    $dbname = "k2nfay1osz1i59kc";
-
-    $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
-    //2. query
-    $sql = "select ProductPricePerUnit from product where ID=$productID";
-    //3. run query
-    $result = mysqli_query($conn, $sql);
-
-    //4. show result
-    while ($row=$result->fetch_assoc()){
-        $name = $row["ProductPriceByUnit"];
-    }
-    Return $name;
-}
-
-
