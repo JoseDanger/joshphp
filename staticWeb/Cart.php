@@ -7,8 +7,8 @@ $orderedProductQtys = ["orderedProductQtys"];
 
 $i = 0;
     while($i<sizeof($orderedProductIDs)){
-    $orderedProductIDs = $orderedProductIDs[$i];
-    $orderedProductQtys = $orderedProductQtys[$i];
-    echo "<p>ID: $orderedProductIDs and Qty: $orderedProductQtys</p>";
+    $orderedProductID = $orderedProductIDs[$i];
+    $orderedProductQty = $orderedProductQtys[$i];
+    echo "<p>ID: $orderedProductID and Qty: $orderedProductQty</p>";
     $i++;
     }
