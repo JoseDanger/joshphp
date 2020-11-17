@@ -1,37 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>CAT FOOD</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
-</head>
-<body><?php
-$username = $_POST["username"];
-$password = $_POST["password"];
+<?php
+if (isset($_POST["username"]) && isset($_POST["password"])) {
+    $username = $_POST["username"];
+    $password = $_POST["password"];
 
-echo "username:".$username;
-echo "password:".$password;
+    //1. create a database connection
+    $server = "klbcedmmqp7w17ik.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+    $dbusername = "t8jnow42fmp1smpt";
+    $dbpassword = "fdavedw769oxw5pd";
+    $dbname = "k2nfay1osz1i59kc";
 
-//create database connection
-$server = "http://fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com/";
-$dusername = "a7vsd5p699o1mif7";
-$dpassword = "uu5y3xzmj399r0ua";
-$dbname = "m2bsi2ekjab5fc3a";
+    $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 
-$conn = new mysqli($server, $dusername, $dpassword, $dbname);
+    //2. create a query
+    $sql = "select * from users 
+            where username = '$username' and 
+            password = '$password'";
 
-if ($conn->error){
-    echo $conn->error;
-}else {
-    echo "Connected";
+    //3. run the query
+    $result = mysqli_query($conn, $sql);
+
+    //4. show result
+    if ($result->num_rows == 1) {
+        echo "you have login ";
+        while ($row = $result->fetch_assoc()) {
+            echo $row["firstname"];
+            //start a session
+            @session_start();
+            //set a session variable
+            $_SESSION["userID"] = $row["id"];
+            $_SESSION["firstname"] = $row["firstname"];
+        }
+    } else {
+        echo "wrong username or password";
+    }
+
+
 }
-//create a query
-$sql = "select * from users 
-where username =".$username."and password =".$password;
 
-//run my query
-$result = mysqli_query($conn, $sql);
-}?>
-<br><br><Button><b><a href="index.php">HOME PAGE</a></b></Button><br><br>
-</body>
+if (!isset($_SESSION["userID"])) {
+    ?>
+    <form action="<?php $_SERVER["PHP_SELF"]; ?>" method="post">
+        <input name="username" type="text" placeholder="Username">
+        <input name="password" type="password" placeholder="Password">
+        <input type="submit" value="Post">
+    </form>
+    <?php
+}else{
+
+    echo '<a href="logout.php">logout</a>';
+
+}
+?>

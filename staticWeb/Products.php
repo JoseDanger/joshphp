@@ -1,68 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>DOG FOOD</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
-</head>
-<body>
-<h1>DOG FOOD</h1>
-<center>
-    <Button><b>LOG IN </b></Button>
-    <button><b>SEARCH</b></Button>
-    <Button><b>REGISTER ACCOUNT</b></Button>
-    <br><br>
-    <Button><b>YOUR ACCOUNT</b></Button>
-    <Button><b>CART/CHECKOUT</b></Button>
-    <Button><b>WISHLIST</b></Button>
 
-<br><br>
-    <div width="100%" style="text-align: center">
-        <img src="images/MainImages/dogs real.jpg" width="500px" border=10>/></div>
-    <br><br>
-    <table style="width:100%">
-        <center>
-
-
-            <?php
-            include "products.php";
-            ?>
+<?php
 
 
 
+//1. connect to database
+$server = "klbcedmmqp7w17ik.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+$dbusername = "t8jnow42fmp1smpt";
+$dbpassword = "fdavedw769oxw5pd";
+$dbname = "k2nfay1osz1i59kc";
 
-<br><br>
-    <Button><b><a href="index.php">HOME PAGE</a></b></Button>
-    <br><br><Button><b><a href="index.php">HOME PAGE</a></b></Button><br><br>
-</body>
-<footer>
-    <b><p>Copyright &copy; 2020, ALL RIGHTS RESERVED</p></b>
-    <br>
-    <b><p>
-        <table width="100%">
-            <tr>
-                <td width="50%" align="center">
-                <ul>
-                    Health Food <br>
-                    Best Products <br>
-                    Pet Food Brands <br>
-                    Join Our Team <br>
-                    Our Donations <br>
-                </ul>
-                </td>
-                <td  align="center">
-                <ul>
-                    Donate To Dogs In Need <br>
-                    Re-Home Your Dog <br>
-                    Get A Re-Homed Dog (Save A Life) <br>
-                    Contact Us <br>
-                    Train Your Pet <br>
+$conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 
-                </ul>
-                </td>
-            </tr>
-        </table>
-        </p></b>
-</footer></center>
-</html>
+//2. create a query
+// take input from selected category;
+if (isset($_GET["category"])){
+    echo "<h1>".$_GET["category"]."</h1>";
+    $sql = "select * from products where category = ".$_GET["category"];
+}else{
+    $sql = "select * from products";
+}
+
+
+//3. run the query on that connection
+$result = mysqli_query($conn,$sql);
+
+//4. show result
+while ($row = $result->fetch_assoc()){
+    ?>
+    <div>
+        <p><?php echo $row["name"]; ?></p>
+        <p><?php echo $row["price"]; ?></p>
+        <p><img src="<?php echo $row["image"]; ?>"</p>
+        <form action="..." method="post">
+            <input name="productID" value="<?php echo $row["id"]; ?>" type="hidden">
+            <input name="qty" type="number" placeholder="QTY" min="0">
+            <input type="submit" value="Add to cart">
+        </form>
+    </div>
+    <?php
+}
