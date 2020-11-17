@@ -73,3 +73,32 @@ function getProductPriceByProductID($productID){
 $userID = $_SESSION["userID"];
 $shippingAddress = $_POST["shippingAddress"];
 $datetime = date("Y-m-d h:i:sa");
+
+function createAnOrder($userID,$shippingAddress,$datetime){
+//1.connection
+    $conn = createDatabaseConnection();
+    //2.query
+    $sql = "INSERT INTO `Orders`(`orderID`, `userID`, `shipAddress`, `orderDate`) 
+    VALUES ([Null],'$userID','$shippingAddress','$datetime')";
+    //3. run query
+    mysqli_query($conn, $sql);
+    // i need my orderID
+    $orderID = mysqli_insert_id($conn);
+    return $orderID;
+}
+function insertProductToOrderedTable($orderID, $productID,$qty){
+    //1. connection
+    $conn = createDatabaseConnection();
+    //2 Query
+    $sql = "INSERT INTO `OrderedProducts`(`orderedProductsID`, `orderID`, `productID`, `qty`) 
+    VALUES (Null, $orderID,$productID,$qty)";
+}
+
+//create my order
+$orderID = createAnOrder($userID, $shippingAddress, $datetime);
+$i = 0;
+    while ($i < sizeof($orderedProductIDs));
+    $productID = $orderedProductIDs;
+    $qty = $orderedProductQtys;
+    insertProductToOrderedTable($orderID, $productID, $qty);
+    $i++
