@@ -101,4 +101,8 @@ $i = 0;
     $productID = $orderedProductIDs;
     $qty = $orderedProductQtys;
     insertProductToOrderedTable($orderID, $productID, $qty);
-    $i++
+    $i++;
+
+    //clear my shopping cart
+$_SESSION["orderedProductIDs"] = [];
+$_SESSION["orderedProductQtys"] = [];
