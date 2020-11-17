@@ -14,7 +14,7 @@
 <div>
     <button><b><a href="loginForm.html">LOG IN </a></b></button>
     <button><img id="searchImage" width="25px" src="images/Cart etc/search-icon-large.jpg.png">
-        <b>SEARCH</b></Button>
+        <b>   SEARCH</b></Button>
     <Button><b>REGISTER ACCOUNT</b></Button>
     <br><br>
     <Button><b><a href=""> YOUR ACCOUNT</b></a></Button>
