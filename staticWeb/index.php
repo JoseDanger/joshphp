@@ -18,7 +18,7 @@
     <Button><b>REGISTER ACCOUNT</b></Button>
     <br><br>
     <Button><b><a href=""> YOUR ACCOUNT</b></a></Button>
-    <Button><img id="cartImage" width="25px" src="images/Cart etc/Cart.jpg"><a href="Cart.html"><b>CART/CHECKOUT</b></Button>
+    <Button><img id="cartImage" width="25px" src="images/Cart etc/Cart.jpg"><a href="Cart.php"><b>CART/CHECKOUT</b></Button>
     <Button><b><a href=""> WISHLIST</b></a></Button></div>
 
 

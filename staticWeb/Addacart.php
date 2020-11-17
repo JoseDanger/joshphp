@@ -31,3 +31,6 @@ if (isset($_SESSION["orderedProductIDs"])){
 $_SESSION["orderedProductIDs"] = $orderedProductIDs;
 $_SESSION["orderedProductIDs"] = $orderedProductQtys;
 
+//Go back to previous page.
+header( 'Location:' . $_SERVER['HTTP_REFERER']);
+
