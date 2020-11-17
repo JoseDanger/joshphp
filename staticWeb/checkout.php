@@ -1,5 +1,4 @@
 <?php
-
 @session_start();
 
 $orderedProductIDs = $_SESSION["orderedProductIDs"];
@@ -8,35 +7,16 @@ $orderedProductQtys = $_SESSION["orderedProductQtys"];
 $i = 0;
 $total = 0;
 while ($i<sizeof($orderedProductIDs)){
-    $orderedProductID = $orderedProductIDs[$i];
-    $orderedProductQty = $orderedProductQtys[$i];
-    $productName = getProductNameByProductID($orderedProductID);
-    $price=getProductPriceByProductID($orderedProductID);
-    echo "<p>Name: $productName Qty: $orderedProductQty Unit Price: $price
-         Price: ".($price*$orderedProductQty)."</p>";
-    $total = $total + ($price*$orderedProductQty);
-    $i++;
+$orderedProductID = $orderedProductIDs[$i];
+$orderedProductQty = $orderedProductQtys[$i];
+$productName = getProductNameByProductID($orderedProductID);
+$price=getProductPriceByProductID($orderedProductID);
+echo "<p>Name: $productName Qty: $orderedProductQty Unit Price: $price
+    Price: ".($price*$orderedProductQty)."</p>";
+$total = $total + ($price*$orderedProductQty);
+$i++;
 }
 echo "<p>Total: $total</p>";
-//if ($total > ???){
-//
-//}else{
-//
-//}(Give Message for Either)
-if (isset($_SESSION["userID"])){
-?>
-
-<form action="checkout.php" method="post">
-    <textarea name="ShippingAddress" rows="10" cols="50"></textarea>
-    <input type="submit" value="CheckOut"
-
-</form>
-
-
-<?php
-}else{
-    echo "you need to login";
-}
 
 function createDatabaseConnection(){
     //1. connect to database
@@ -90,3 +70,6 @@ function getProductPriceByProductID($productID){
     }
     return $price;
 }
+$userID = $_SESSION["userID"];
+$shippingAddress = $_POST["shippingAddress"];
+$datetime = date("Y-m-d h:i:sa");
