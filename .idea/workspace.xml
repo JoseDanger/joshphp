@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="" />
+    <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Old Page Design/BIRDS.html" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Old Page Design/BIRDS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Old Page Design/FISH.html" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Old Page Design/FISH.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Old Page Design/RodentPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Old Page Design/RodentPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Otherpets.html" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Old Page Design/Otherpets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Registrationform.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Registrationform.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Registrationpage.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Registrationpage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/firstConnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/firstConnection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/loginForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Old Page Design/loginForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/phpForm_Post.html" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Old Page Design/phpForm_Post.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +106,7 @@
       <workItem from="1605537242943" duration="1911000" />
       <workItem from="1605552345623" duration="10495000" />
       <workItem from="1605565758859" duration="2562000" />
-      <workItem from="1605640982582" duration="11561000" />
+      <workItem from="1605640982582" duration="12642000" />
     </task>
     <servers />
   </component>
