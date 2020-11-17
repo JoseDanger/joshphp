@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<d lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>PET FOODS</title>
@@ -33,7 +33,7 @@ while($row = $result->fetch_assoc()){
     <Button><a href="Dogpage.php?category=<?php echo $row["ID"];?>"><b><?php echo $row["Name"]; ?></b></a></Button>
 <button><b><a href="index.php">HOME PAGE</a> </b></button>
     <div width="100%" style="text-align: center">
-        <img src="images/MainImages/main.jpg" width = 500px border=10 /></div>
+<!--        <img src="images/MainImages/main.jpg" width = 500px border=10 /></div>-->
     <br><br>
 <?php
 }?>
