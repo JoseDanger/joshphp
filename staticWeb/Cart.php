@@ -12,3 +12,7 @@ $i = 0;
     echo "<p>ID: $orderedProductID and Qty: $orderedProductQty</p>";
     $i++;
     }
+
+    function getProductNameByProductID(){
+
+}
