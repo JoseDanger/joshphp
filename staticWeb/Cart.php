@@ -24,7 +24,7 @@ echo "<p>Total: $total</p>";
 //
 //}else{
 //
-//}
+//}(Give Message for Either)
 
 function createDatabaseConnection(){
     //1. connect to database
