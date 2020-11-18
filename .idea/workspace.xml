@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +97,7 @@
       <workItem from="1605665899392" duration="14121000" />
       <workItem from="1605714070920" duration="672000" />
       <workItem from="1605714791028" duration="1108000" />
-      <workItem from="1605728011509" duration="765000" />
+      <workItem from="1605728011509" duration="1087000" />
     </task>
     <servers />
   </component>
@@ -129,6 +129,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="423" y="84" key="Github.UntrackedFilesDialog/0.0.1280.760@0.0.1280.760" timestamp="1604354392544" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1605728810426">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1280.760@0.0.1280.760" timestamp="1605728810426" />
     <state x="315" y="102" key="NewPhpClassDialog" timestamp="1605666328557">
       <screen x="0" y="0" width="1280" height="760" />
     </state>

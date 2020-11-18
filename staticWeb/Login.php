@@ -17,7 +17,7 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
 
     //1. create a database connection
     $server = "http://fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-    $dbusername = "t8jnow42fmp1smpt";
+    $dbusername = " a7vsd5p699o1mif7";
     $dbpassword = "fdavedw769oxw5pd";
     $dbname = "k2nfay1osz1i59kc";
 
