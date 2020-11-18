@@ -19,7 +19,7 @@
         <br>
         <input name="password" type="password" placeholder="Password">
         <br>
-        <label>Adress</label>
+        <label><h3>ADRESS</h3></label>
         <br>
         <textarea name="address" cols="50" rows="10"></textarea>
         <br>
