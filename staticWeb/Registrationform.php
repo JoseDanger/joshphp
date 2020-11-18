@@ -10,6 +10,9 @@
     <center>
 
         <h1><b>CREATE AN ACCOUNT</b></h1>
+        <div width="100%" style="text-align: center">
+            <img src="images/MainImages/CartReal.jpg.bmp" width = 500px border=10 /></div>
+        <br><br>
     <form method="post" action="register.php">
         <input name="firstname" type="text" placeholder="First Name">
         <br>
