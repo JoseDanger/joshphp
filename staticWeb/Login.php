@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
 <h1><b>LOGIN</b></h1>
-    <br>
+    <br><centre>
 <?php
 if (isset($_POST["username"]) && isset($_POST["password"])) {
     $username = $_POST["username"];
@@ -62,7 +62,7 @@ if (!isset($_SESSION["userID"])) {
 ?>
     <button><b><a href="Login.php"> BACK TO TOP</a> </b></button>
     <Button><b><a href="index.php">HOME PAGE</a></b></Button>
-    <br><br><br><br>
+    <br><br><br><br></centre>
     </body>
     <footer>
         <b><p>Copyright &copy; 2020, ALL RIGHTS RESERVED</p></b>
