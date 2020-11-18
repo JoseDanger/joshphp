@@ -40,14 +40,10 @@ if (mysqli_query($conn, $sql)) {
 }else{
     echo "data has not been inserted, please try again";
 }
-echo "<a href='index.php'>HOME</a>";
+echo "<button><a href='index.php'>HOME</a></button>";
 ?>
-<br><br><br> <Button><a href="index.php"><b>BACK TO TOP</b></a></Button>
-<br>
-<br>
-<br>
-    <button><b><a href="Registrationpage.php"> BACK TO TOP</a> </b></button>
-    <Button><b><a href="index.php">HOME PAGE</a></b></Button>
+
+
     <br><br><br><br>
     </body></centre>
     <footer>
