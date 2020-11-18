@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>LOGIN</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script><centre>
+    <script src="js/script.js"></script>
 <h1><b>LOGIN</b></h1>
     <br>
 <?php
@@ -47,7 +47,7 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
 }
 
 if (!isset($_SESSION["userID"])) {
-    ?>
+    ?><centre>
     <form action="<?php $_SERVER["PHP_SELF"]; ?>" method="post">
         <input name="username" type="text" placeholder="Username"><Br><br>
         <input name="password" type="password" placeholder="Password"><Br><br>
