@@ -23,7 +23,7 @@
         <br>
         <input name="password" type="password" placeholder="Password">
         <br><br>
-        <input ID="1" name="address" type="address" placeholder="Address">
+        <input name="address" type="address" placeholder="Address">
         <br><br>
         <input name="phone" type="text" placeholder="Phone Number">
         <br><br><br>

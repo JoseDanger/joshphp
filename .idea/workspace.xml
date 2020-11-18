@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/staticWeb/Registrationform.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Registrationform.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticWeb/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +94,7 @@
       <workItem from="1605552345623" duration="10495000" />
       <workItem from="1605565758859" duration="2562000" />
       <workItem from="1605640982582" duration="14441000" />
-      <workItem from="1605665899392" duration="4010000" />
+      <workItem from="1605665899392" duration="4430000" />
     </task>
     <servers />
   </component>
