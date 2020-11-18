@@ -16,11 +16,11 @@
         <p>Please Fill In The Details Below</p><br><br>
     <form method="post" action="register.php">
         <input name="firstname" type="text" placeholder="First Name">
-        <br>
+        <br><br>
         <input name="lastname" type="text" placeholder="Last Name">
-        <br>
+        <br><br>
         <input name="username" type="text" placeholder="Username">
-        <br>
+        <br><br>
         <input name="password" type="password" placeholder="Password">
         <br><br>
         <input name="address" type="address" placeholder="Address">
