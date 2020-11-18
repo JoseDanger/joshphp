@@ -14,14 +14,14 @@
         <button><b><a href="Registrationpage.php">YOUR ACCOUNT</a></b></button>
     <button><b><a href="Registrationform.php">REGISTER ACCOUNT</a></b></button><br><br>
         <button><b><a href="AboutUs.html">ABOUT US</a></b></button>
-
-    <button><b><a href="Cart.php">CART</a></b></button>
         <Button><b><a href="index.php">HOME PAGE</a></b></Button>
+    <button><b><a href="Cart.php">CART</a></b></button>
+
 
     <?php
           if (isset($_SESSION["userID"])){
         ?>
-    <li><button><b></b><a href="">MY ORDERS</a></b></button> </li><br>
+    <button><b></b><a href="">MY ORDERS</a></b></button>
     <?php
     }
     ?>
