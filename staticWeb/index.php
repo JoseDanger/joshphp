@@ -11,7 +11,7 @@
 
 <h1><B>PET FOODS</B></h1><br>
 <p></p>
-
+<div width="100%" style="text-align: center">
     <button><b><a href="Login.php">LOGIN </a></b></button>
     <Button><b><a href="Registrationform.php">REGISTER ACCOUNT</b></Button>
     <Button><b><a href="Login.php"> YOUR ACCOUNT</b></a></Button><br><br>
@@ -24,8 +24,8 @@
 
 
 
-        <div width="100%" style="text-align: center">
-            <img src="images/MainImages/main.jpg" width = 500px border=10 /></div>
+
+            <img src="images/MainImages/main.jpg" width = 500px border=10 />
         <br><br>
 
 
@@ -52,7 +52,7 @@
             <br>
             <br>
             <br>
-</body></centre>
+</body>
             <footer>
                 <b><p>Copyright &copy; 2020, ALL RIGHTS RESERVED</p></b>
                 <br>
@@ -77,7 +77,7 @@
                     </tr>
                 </table>
                 </p></b>
-            </footer>
+            </footer></centre></div>
 
 
 

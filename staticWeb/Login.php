@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
 <h1><b>LOGIN</b></h1>
-    <br>
+    <br><br>
+    <img src="images/MainImages/Other%20Pets%20Real.bmp">
 <?php
 if (isset($_POST["username"]) && isset($_POST["password"])) {
     $username = $_POST["username"];
