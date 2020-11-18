@@ -1,20 +1,11 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>REGISTER ACCOUNT</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
-</head>
-<body>
-<center>
-    <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Register Form</title>
     </head>
     <body>
+    <center>
     <form method="post" action="register.php">
         <input name="firstname" type="text" placeholder="First Name">
         <br>
@@ -33,8 +24,6 @@
         <input type="submit" value="Register">
 
     </form>
-    </body>
-    </html>
 
 </center>
 </body><br><br><br>
