@@ -22,9 +22,9 @@
         <input name="username" type="text" placeholder="Username">
         <br>
         <input name="password" type="password" placeholder="Password">
-        <br>
+        <br><br><br>
         <button><label><h3>ADDRESS</h3></label></button>
-        <br>
+        <br><br><br>
         <textarea name="address" cols="50" rows="4"></textarea>
         <br>
         <input name="phone" type="text" placeholder="Phone Number">
