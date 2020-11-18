@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
 </head><div width="100%" style="text-align: center">
+    <h1><b>CART</b></h1>
     <img src="images/MainImages/Cart.jpg"border=10 width="500px" border=10>
 
 <?php
@@ -101,7 +102,7 @@ function getProductPriceByProductID($productID){
     }
     return $price;
 }
-?>
+?><br><br>
         <button><b><a href="Cart.php"> BACK TO TOP</a> </b></button>
         <Button><b><a href="index.php">HOME PAGE</a></b></Button>
         <br><br><br><br>
