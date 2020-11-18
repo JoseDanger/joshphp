@@ -42,6 +42,8 @@ if (mysqli_query($conn, $sql)) {
 }
 echo "<button><b><a href='Registrationform.php'>TRY AGAIN</a></b></button>";
 ?>
+        <div width="100%" style="text-align: center">
+            <img src="images/MainImages/CartReal.jpg.bmp" width = 500px border=10 /></div>
 <br><br>
         <button><b><a href='index.php'>HOMPAGE</a></b></button>
 
