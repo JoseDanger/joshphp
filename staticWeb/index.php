@@ -22,14 +22,14 @@
 
 
     <br><br>
-
+</div>
 
 
     <div width="100%" style="text-align: center">
 
             <img src="images/MainImages/main.jpg" width = 500px border=10 />
         <br><br>
-
+    </div>
 
 
 <button><b><a href="AboutUs.html"> ABOUT US</a> </b></button>
