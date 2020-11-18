@@ -32,7 +32,7 @@ while($row = $result->fetch_assoc()){
     <Button><a href="Dogpage.php?category=<?php echo $row["ID"];?>"><b><?php echo $row["Name"]; ?></b></a></Button>
 
 <?php
-}?>
+}?><br><br>
 <button><b><a href="category.php"> BACK TO TOP</a> </b></button>
 <Button><b><a href="index.php">HOME PAGE</a></b></Button>
 <br><br><br><br>
