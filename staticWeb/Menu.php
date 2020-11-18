@@ -12,7 +12,7 @@
             </b></button>  <br>
     <button><b></b><a href="AboutUs.html">ABOUT US</a></b></button> <br>
     <button><b><a href="Registrationform.php">REGISTER ACCOUNT</a></b></button>
-    <br><li><button><b></b><a href="Registrationpage.php">YOUR ACCOUNT</a></b></button> <br>
+    <br><button><b></b><a href="Registrationpage.php">YOUR ACCOUNT</a></b></button> <br>
     <button><b></b><a href="Cart.php">CART</a></b></button> <br>
 
     <?php
