@@ -23,12 +23,12 @@
         <br>
         <input name="password" type="password" placeholder="Password">
         <br><br><br>
-       <label><h3>ADDRESS</h3></label>
+       <button><label>ADDRESS</label></button>
         <br><br><br>
         <textarea name="address" cols="50" rows="4"></textarea>
         <br>
         <input name="phone" type="text" placeholder="Phone Number">
-        <br>
+        <br><br><br>
         <input type="submit" value="Register">
 
     </form>
