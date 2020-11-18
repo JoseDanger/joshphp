@@ -8,13 +8,12 @@
 </head>
 <body>
 <center>
-<ul>
-    <li><button><b><a href=Login.php">LOG IN</a>
-            </b></button> </li> <br>
-    <li><button><b></b><a href="AboutUs.html">ABOUT US</a></b></button> </li><br>
-    <li><button><b><a href="Registrationform.php">REGISTER ACCOUNT</a></b></button> </li>
-    <br><li><button><b></b><a href="Registrationpage.php">YOUR ACCOUNT</a></b></button> </li><br>
-    <li><button><b></b><a href="Cart.php">CART</a></b></button> </li><br>
+<button><b><a href=Login.php">LOG IN</a>
+            </b></button>  <br>
+    <button><b></b><a href="AboutUs.html">ABOUT US</a></b></button> <br>
+    <button><b><a href="Registrationform.php">REGISTER ACCOUNT</a></b></button>
+    <br><li><button><b></b><a href="Registrationpage.php">YOUR ACCOUNT</a></b></button> <br>
+    <button><b></b><a href="Cart.php">CART</a></b></button> <br>
 
     <?php
           if (isset($_SESSION["userID"])){
@@ -24,7 +23,6 @@
     }
     ?>
 
-</ul>
 
 <button><b><a href="Menu.php"> BACK TO TOP</a> </b></button>
 <Button><b><a href="index.php">HOME PAGE</a></b></Button>
