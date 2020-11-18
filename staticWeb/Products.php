@@ -13,9 +13,9 @@ $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 
 //2. create a query
 // take input from selected category;
-if (isset($_GET["category"])){
-    echo "<h1>".$_GET["category"]."</h1>";
-    $sql = "select * from products where category = ".$_GET["category"];
+if (isset($_GET["Category"])){
+    echo "<h1>".$_GET["Category"]."</h1>";
+    $sql = "select * from products where category = ".$_GET["Category"];
 }else{
     $sql = "select * from products";
 }
