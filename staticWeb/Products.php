@@ -53,7 +53,8 @@ function createDatabaseConnection(){
     $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
     return $conn;
 }
-function getCategoryPhotoFromCategoryID($CategoryID){
+function getCategoryPhotoFromCategoryID($CategoryID)
+{
     //1. create a db connection
     $conn = createDatabaseConnection();
     //2. query
@@ -63,17 +64,18 @@ function getCategoryPhotoFromCategoryID($CategoryID){
     $result = mysqli_query($conn, $sql);
 
     //4. show result
-    while ($row = $result->fetch_assoc()){
+    while ($row = $result->fetch_assoc()) {
         $Photo = $row["Photo"];
     }
     return $Photo;
-
+}
 /**
  * @name getCategoryNameFromCategoryID
  * @param $CategoryID
  * @return $name
  */
-function getCategoryNameFromCategoryID($CategoryID){
+function getCategoryNameFromCategoryID($CategoryID)
+{
     //1. create a db connection
     $conn = createDatabaseConnection();
     //2. query
@@ -83,7 +85,7 @@ function getCategoryNameFromCategoryID($CategoryID){
     $result = mysqli_query($conn, $sql);
 
     //4. show result
-    while ($row = $result->fetch_assoc()){
+    while ($row = $result->fetch_assoc()) {
         $name = $row["Name"];
     }
     return $name;
