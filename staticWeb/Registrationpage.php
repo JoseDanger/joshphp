@@ -40,9 +40,10 @@ if (mysqli_query($conn, $sql)) {
 }else{
     echo "data has not been inserted, please try again";
 }
-echo "<button><a href='index.php'>HOME</a></button>";
+echo "<button><b><a href='Registrationform.php'>CREATE AN ACCOUNT</a></b></button>";
 ?>
-
+<br><br>
+        <button><b><a href='index.php'>HOMPAGE</a></b></button>
 
     <br><br><br><br>
     </body></centre>
