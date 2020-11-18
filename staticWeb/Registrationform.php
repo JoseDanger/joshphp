@@ -25,6 +25,8 @@
         <br><br><br>
        <label>ADDRESS</label>
         <br><br>
+        <input name="address" type="address" placeholder="Address">
+        <br><br>
         <textarea name="address" cols="50" rows="4"></textarea>
         <br>
         <input name="phone" type="text" placeholder="Phone Number">
