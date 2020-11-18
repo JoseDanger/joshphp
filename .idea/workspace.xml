@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticWeb/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticWeb/images/MainImages/RegiserAccount.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/images/MainImages/RegiserAccount.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,17 +52,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\staticWeb\categories" />
-      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\staticWeb" />
-      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\staticWeb\Old Page Design" />
-      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp" />
-      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase\otherexercise" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\staticWeb" />
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase" />
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase\sessionexercise" />
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\staticWeb\images\MainImages" />
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\staticWeb\categories" />
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\staticWeb" />
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\staticWeb\Old Page Design" />
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp" />
     </key>
   </component>
@@ -97,6 +95,7 @@
       <workItem from="1605640982582" duration="14441000" />
       <workItem from="1605665899392" duration="14121000" />
       <workItem from="1605714070920" duration="672000" />
+      <workItem from="1605714791028" duration="358000" />
     </task>
     <servers />
   </component>
