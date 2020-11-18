@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
     <meta charset="UTF-8">
     <title>PET FOODS</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
-</head>
+    <centre>
 <body>
+
 
 <h1><B>PET FOODS</B></h1><br>
 <p></p>
-<center
+
 <div>
     <button><b><a href="Login.php">LOGIN </a></b></button>
     <Button><b><a href="Registrationform.php">REGISTER ACCOUNT</b></Button>
     <br><br>
     <Button><b><a href="Login.php"> YOUR ACCOUNT</b></a></Button>
-    <Button><img id="cartImage" width="25px" src="images/Cart etc/Cart.jpg"><a href="Cart.php"><b>CART/CHECKOUT</b></Button>
+    <Button><img id="cartImage" width="25px" src="images/Cart etc/Cart.jpg"><a href="Cart.php"><b>
+                CART/CHECKOUT</b></Button>
 </div>
 
 
@@ -33,10 +35,10 @@
     <br><br><br>
 
 
-            </centre>
+
             <br>
 
-            <center><h1>STAFF PICKS  20% Off!</b></h1>
+           <h1>STAFF PICKS  20% Off!</b></h1>
                 <br>
 
                 <img src="images/dog/Picture2.jpg" height="303" width="302" border = "7px"/><br>
@@ -46,10 +48,11 @@
 
                 <h3><b> Omega Plus: New Zealand Salmon: was $24.99 <br> <u>now</u> <br><h2><b>$19.00</b></h2></b></h3>
 
-<br><br><br> <Button><a href="index.php"><b>BACK TO TOP</b></a></Button>
+<br><br><br> <Button><a href="index.php"><b>BACK TO TOP</b></a></Button></center>
             <br>
             <br>
             <br>
+</body>
             <footer>
                 <b><p>Copyright &copy; 2020, ALL RIGHTS RESERVED</p></b>
                 <br>
@@ -74,7 +77,7 @@
                     </tr>
                 </table>
                 </p></b>
-            </footer></center>
+            </footer></centre>
 
 
 
