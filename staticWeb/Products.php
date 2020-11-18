@@ -1,7 +1,7 @@
-
 <?php
-
-
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 //1. connect to database
 $server = "http://fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
@@ -13,19 +13,19 @@ $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 
 //2. create a query
 // take input from selected category;
-if (isset($_GET["Category"])){
-    echo "<h1>".$_GET["Category"]."</h1>";
-    $sql = "select * from PRODUCT where Category = ".$_GET["Category"];
-}else{
+if (isset($_GET["category"])) {
+    echo "<h1>" . $_GET["category"] . "</h1>";
+    $sql = "select * from PRODUCT where Category = " . $_GET["category"];
+} else {
     $sql = "select * from PRODUCT";
 }
 
 
 //3. run the query on that connection
-$result = mysqli_query($conn,$sql);
+$result = mysqli_query($conn, $sql);
 
 //4. show result
-while ($row = $result->fetch_assoc()){
+while ($row = $result->fetch_assoc()) {
     ?>
     <div>
         <p><?php echo $row["name"]; ?></p>
@@ -37,4 +37,5 @@ while ($row = $result->fetch_assoc()){
             <input type="submit" value="Add to cart">
         </form>
     </div>
-    <?php}
+    <?php
+}

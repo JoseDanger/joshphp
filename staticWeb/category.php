@@ -29,7 +29,7 @@ while($row = $result->fetch_assoc()){
     ?>
 
 
-    <Button><a href="Dogpage.php?category=<?php echo $row["ID"];?>"><b><?php echo $row["Name"]; ?></b></a></Button>
+    <Button><a href="Products.php?category=<?php echo $row["ID"];?>"><b><?php echo $row["Name"]; ?></b></a></Button>
 
 <?php
 }?><br><br>
