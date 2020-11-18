@@ -64,7 +64,7 @@ function getCategoryPhotoFromCategoryID($CategoryID){
 
     //4. show result
     while ($row = $result->fetch_assoc()){
-        $photo = $row["Photo"];
+        $Photo = $row["Photo"];
     }
     return $Photo;
 
