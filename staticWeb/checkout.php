@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
     <meta charset="UTF-8">
     <title>PET FOODS</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
+    <header>CHECKOUT</header>
+    <h1><b>CHECKOUT</b></h1>
 <?php
 @session_start();
 
