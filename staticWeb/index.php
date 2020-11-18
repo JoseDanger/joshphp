@@ -56,7 +56,7 @@
             <br>
 
 
-            <footer>
+           <center> <footer>
                 <b><p>Copyright &copy; 2020, ALL RIGHTS RESERVED</p></b>
                 <br>
                 <b><p><div width="100%" style="text-align: center">
@@ -79,7 +79,7 @@
 
                         </td>
                     </tr>
-                    </table></div>
+                    </table></centre>
                 </p></b>
             </footer></centre></div>
 
