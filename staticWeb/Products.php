@@ -54,6 +54,12 @@ function createDatabaseConnection(){
     return $conn;
 }
 
+
+/**
+ * @name getCategoryNameFromCategoryID
+ * @param $CategoryID
+ * @return $name
+ */
 function getCategoryNameFromCategoryID($CategoryID){
     //1. create a db connection
     $conn = createDatabaseConnection();

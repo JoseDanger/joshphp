@@ -4,12 +4,12 @@
 //error_reporting(E_ALL);
 
 //create a database connection
-$server = "http://fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-$dusername = " a7vsd5p699o1mif7";
-$dpassword = "uu5y3xzmj399r0ua";
+$server = "fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+$dbusername = "a7vsd5p699o1mif7";
+$dbpassword = "uu5y3xzmj399r0ua";
 $dbname = "m2bsi2ekjab5fc3a";
 
-$conn = new mysqli($server, $dusername, $dpassword, $dbname);
+$conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 
 if ($conn->error){
     echo $conn->error;
