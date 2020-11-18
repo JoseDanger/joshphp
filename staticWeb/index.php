@@ -30,7 +30,9 @@
             <img src="images/MainImages/main.jpg" width = 500px border=10 /></div>
         <br><br>
 
-<?php include "category.php" ?> <button><b><a href="AboutUs.html"> ABOUT US</a> </b></button>
+
+
+<button><b><a href="AboutUs.html"> ABOUT US</a> </b></button>
 
     <br><br><br>
 
