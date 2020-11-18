@@ -35,6 +35,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -96,6 +97,7 @@
       <workItem from="1605665899392" duration="14121000" />
       <workItem from="1605714070920" duration="672000" />
       <workItem from="1605714791028" duration="1108000" />
+      <workItem from="1605728011509" duration="765000" />
     </task>
     <servers />
   </component>
@@ -107,6 +109,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="351" y="15" key="#PHP/0.0.1280.760@0.0.1280.760" timestamp="1604439706727" />
+    <state x="331" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605728796502">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="331" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1605728796502" />
     <state x="445" y="95" key="#com.intellij.ide.util.MemberChooser" timestamp="1605646183422">
       <screen x="0" y="0" width="1280" height="760" />
     </state>

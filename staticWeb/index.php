@@ -52,28 +52,29 @@
             <br>
             <br>
             <br>
-</body>
+    </div>
+
             <footer>
                 <b><p>Copyright &copy; 2020, ALL RIGHTS RESERVED</p></b>
                 <br>
                 <b><p>
                     <table>
                     <tr>
-                        <ul>
+                        <td>
                             Health Food <br>
                             Best Products <br>
                             Pet Food Brands <br>
                             Join Our Team <br>
                             Our Donations <br>
-                        </ul>
-                        <ul>
+                        </td>
+                        <td>
                             Donate To Dogs In Need <br>
                             Re-Home Your Dog <br>
                             Get A Re-Homed Dog (Save A Life) <br>
                             Contact Us <br>
                             Train Your Pet <br>
 
-                        </ul>
+                        </td>
                     </tr>
                 </table>
                 </p></b>
@@ -113,7 +114,6 @@
 
 
 
-</body>
-</html>
+
 </body>
 </html>
