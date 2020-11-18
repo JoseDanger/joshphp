@@ -32,11 +32,11 @@
 
     </form>
 
-</center>
+
     <button><b><a href="Registrationform.php"> BACK TO TOP</a> </b></button>
     <Button><b><a href="index.php">HOME PAGE</a></b></Button>
     <br><br><br><br>
-    </body>
+    </body></center>
     <footer>
         <b><p>Copyright &copy; 2020, ALL RIGHTS RESERVED</p></b>
         <br>
