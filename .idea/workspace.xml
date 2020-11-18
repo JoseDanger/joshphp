@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/staticWeb/categories/Cat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticWeb/categories/Dog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticWeb/categories/OtherPets.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticWeb/categories/otherPets/Bird.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticWeb/categories/otherPets/Fish.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticWeb/categories/otherPets/Rodent.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticWeb/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticWeb/vieworder.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/vieworder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,16 +60,18 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\staticWeb\categories" />
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\staticWeb" />
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\staticWeb\Old Page Design" />
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp" />
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase\otherexercise" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\staticWeb" />
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase" />
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase\sessionexercise" />
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\staticWeb\Old Page Design" />
-      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp" />
-      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase\otherexercise" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -92,7 +100,8 @@
       <workItem from="1605537242943" duration="1911000" />
       <workItem from="1605552345623" duration="10495000" />
       <workItem from="1605565758859" duration="2562000" />
-      <workItem from="1605640982582" duration="14192000" />
+      <workItem from="1605640982582" duration="14441000" />
+      <workItem from="1605665899392" duration="793000" />
     </task>
     <servers />
   </component>
@@ -120,14 +129,14 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="423" y="84" key="Github.UntrackedFilesDialog/0.0.1280.760@0.0.1280.760" timestamp="1604354392544" />
-    <state x="315" y="102" key="NewPhpClassDialog" timestamp="1604951294018">
+    <state x="315" y="102" key="NewPhpClassDialog" timestamp="1605666328557">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="315" y="102" key="NewPhpClassDialog/0.0.1280.760@0.0.1280.760" timestamp="1604951294018" />
-    <state x="479" y="296" key="NewPhpFileDialog" timestamp="1605653306045">
+    <state x="315" y="102" key="NewPhpClassDialog/0.0.1280.760@0.0.1280.760" timestamp="1605666328557" />
+    <state x="479" y="296" key="NewPhpFileDialog" timestamp="1605666353188">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="479" y="296" key="NewPhpFileDialog/0.0.1280.760@0.0.1280.760" timestamp="1605653306045" />
+    <state x="479" y="296" key="NewPhpFileDialog/0.0.1280.760@0.0.1280.760" timestamp="1605666353188" />
     <state x="141" y="24" key="SettingsEditor" timestamp="1604535964437">
       <screen x="0" y="0" width="1280" height="760" />
     </state>

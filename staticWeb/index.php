@@ -12,10 +12,10 @@
 <p></p>
 
 <div>
-    <button><b><a href="Old Page Design/loginForm.html">LOG IN </a></b></button>
-    <button><img id="searchImage" width="25px" src="images/Cart etc/search-icon-large.jpg.png">
+    <button><b><a href="Login.php">LOG IN </a></b></button>
+    <button><img id="checkout" width="25px" src="images/Cart etc/search-icon-large.jpg.png">
         <b>SEARCH</b></Button>
-    <Button><b>REGISTER ACCOUNT</b></Button>
+    <Button><b><a href="" REGISTER ACCOUNT</b></Button>
     <br><br>
     <Button><b><a href=""> YOUR ACCOUNT</b></a></Button>
     <Button><img id="cartImage" width="25px" src="images/Cart etc/Cart.jpg"><a href="Cart.php"><b>CART/CHECKOUT</b></Button>
@@ -30,7 +30,7 @@
             <img src="images/MainImages/main.jpg" width = 500px border=10 /></div>
         <br><br>
 
-<?php include "Category.php" ?> <button><b><a href="AboutUs.html"> ABOUT US</a> </b></button>
+<?php include "category.php" ?> <button><b><a href="AboutUs.html"> ABOUT US</a> </b></button>
 
     <br><br><br>
 

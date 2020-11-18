@@ -18,23 +18,40 @@
 <br><br>
         <div width="100%" style="text-align: center">
             <img src="images/MainImages/main.jpg" width = 500px border=10 /></div>
-        <br><br>
-        <label for="firstname"><b>First Name</b></label>
-        <input type="text" placeholder="Enter First Name" name="firstname" id="firstname" required>
-       <br><br>
-        <label for="lastname"><b>Last Name</b></label>
-        <input type="text" placeholder="Enter Last Name" name="lastname" id="lastname" required>
-        <br><br>
-        <label for="phonenumber"><b>PHONE NUMBER</b></label>
-        <input type="text" placeholder="Enter Phone Number" name="phonenumber" id="phonenumber" required>
-        <br><br>
-        <label for="psw"><b>PASSWORD</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-        <br><br>
-        <label for="psw-repeat"><b>REPEAT PASSWORD</b></label>
-        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-        <hr>
-        <br><br>
+<?php
+$firstname = $_POST["firstname"];
+$lastname = $_POST["lastname"];
+$username = $_POST["username"];
+$password = $_POST["password"];
+$address = $_POST["address"];
+$phone = $_POST["phone"];
+if ($firstname == "" || $lastname==""){
+    //1. connect to database
+    $server = "klbcedmmqp7w17ik.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+    $dbusername = "t8jnow42fmp1smpt";
+    $dbpassword = "fdavedw769oxw5pd";
+    $dbname = "k2nfay1osz1i59kc";
+
+    $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
+
+//2. create a query
+    $sql = "INSERT INTO `users`(`id`, `firstname`, `lastname`, `username`, `password`, `address`, `phoneNumber`) 
+VALUES (NULL,'$firstname','$lastname','$username','$password','$address','$phone')";
+
+//3. run the query
+    if (mysqli_query($conn, $sql)){
+        echo "data has been inserted";
+    }else{
+        echo "data has not been inserted";
+    }
+}
+else{
+    echo "there should not be any empty fields";
+}
+
+
+echo "<a href='index.php'>Home</a>";
+?>
         <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
         <br><br> <button type="submit" class="registeration"><b>REGISTER</b></button>
     </div>
