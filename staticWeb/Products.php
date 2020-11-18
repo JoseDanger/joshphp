@@ -15,21 +15,7 @@ $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 // take input from selected category;
 if (isset($_GET["category"])) {
     echo "<h1>" . $_GET["category"] . "</h1>";
-    function getProductNameByProductID($productID){
-        //1. create a db connection
-        $conn = createDatabaseConnection();
-        //2. query
-        $sql = "select name from products where id=$productID";
 
-        //3. run query
-        $result = mysqli_query($conn, $sql);
-
-        //4. show result
-        while ($row = $result->fetch_assoc()){
-            $name = $row["name"];
-        }
-        return $name;
-    }
     $sql = "select * from PRODUCT where Category = " . $_GET["category"];
 } else {
     $sql = "select * from PRODUCT";
@@ -54,4 +40,31 @@ while ($row = $result->fetch_assoc()) {
         </form>
     </div>
     <?php
+}
+
+function createDatabaseConnection(){
+    //1. connect to database
+    $server = "http://fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+    $dbusername = " a7vsd5p699o1mif7";
+    $dbpassword = "uu5y3xzmj399r0ua";
+    $dbname = "m2bsi2ekjab5fc3a";
+
+    $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
+    return $conn;
+}
+
+function getProductNameByProductID($productID){
+    //1. create a db connection
+    $conn = createDatabaseConnection();
+    //2. query
+    $sql = "select name from Category where id=$productID";
+
+    //3. run query
+    $result = mysqli_query($conn, $sql);
+
+    //4. show result
+    while ($row = $result->fetch_assoc()){
+        $name = $row["name"];
+    }
+    return $name;
 }
