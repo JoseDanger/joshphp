@@ -41,9 +41,9 @@ if (mysqli_query($conn, $sql)) {
     echo "data has not been inserted, please try again";
 }
 echo "<button><b><a href='Registrationform.php'>TRY AGAIN</a></b></button>";
-?>
+?><br><br>
         <div width="100%" style="text-align: center">
-            <img src="images/MainImages/CartReal.jpg.bmp" width = 500px border=10 /></div>
+            <img src="images/MainImages/RegiserAccount.jpg" width = 500px border=10 /></div>
 <br><br>
         <button><b><a href='index.php'>HOMPAGE</a></b></button>
 
