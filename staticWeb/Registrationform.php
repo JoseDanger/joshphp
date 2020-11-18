@@ -30,10 +30,11 @@
         <br><br><br>
         <input type="submit" value="Register">
 
-    </form>
+    </form><br>
+        <br>
 
 
-    <button><b><a href="Registrationform.php"> BACK TO TOP</a> </b></button>
+        <button><b><a href="Registrationform.php"> BACK TO TOP</a> </b></button>
     <Button><b><a href="index.php">HOME PAGE</a></b></Button>
     <br><br><br><br>
     </body></center>
