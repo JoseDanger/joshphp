@@ -15,7 +15,7 @@
             <img src="images/MainImages/CartReal.jpg.bmp" width = 500px border=10 /></div>
         <br><br>
         <p>Please Fill In The Details Below</p><br><br>
-    <form method="post" action="register.php">
+    <form method="post" action="Registrationpage.php">
         <input name="firstname" type="text" placeholder="First Name">
         <br><br>
         <input name="lastname" type="text" placeholder="Last Name">
