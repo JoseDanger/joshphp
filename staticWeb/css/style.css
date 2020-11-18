@@ -114,8 +114,7 @@ h1 {
 
 
 }
-post{
-    text-align: center;
+h3{    text-align: center;
     margin-top: 10px;
     margin-left: 50px;
     margin-right: 50px;
@@ -129,5 +128,6 @@ post{
     border: 5px solid black;
     transition: all 1s;
     font-size: x-large;
+
 }
 
