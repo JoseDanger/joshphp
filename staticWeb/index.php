@@ -59,7 +59,7 @@
             <footer>
                 <b><p>Copyright &copy; 2020, ALL RIGHTS RESERVED</p></b>
                 <br>
-                <b><p>
+                <b><p><div width="100%" style="text-align: center">
                     <table>
                     <tr>
                         <td>
