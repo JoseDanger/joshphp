@@ -6,6 +6,7 @@
     </head>
     <body>
     <center>
+        <h1><b>CREATE AN ACCOUNT</b></h1>
     <form method="post" action="register.php">
         <input name="firstname" type="text" placeholder="First Name">
         <br>
