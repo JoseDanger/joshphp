@@ -12,6 +12,7 @@
 <h1><B>PET FOODS</B></h1><br>
 <p></p>
 <div width="100%" style="text-align: center">
+</div>
     <button><b><a href="Login.php">LOGIN </a></b></button>
     <Button><b><a href="Registrationform.php">REGISTER ACCOUNT</b></Button>
     <Button><b><a href="Login.php"> YOUR ACCOUNT</b></a></Button><br><br>
