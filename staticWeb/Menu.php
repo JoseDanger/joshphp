@@ -8,7 +8,8 @@
 <body>
 <div width="100%" style="text-align: center">
     <h1><b>MENU</b></h1><br><Br>
-<img src="images/MainImages/Kitten.jpg"border=10 width="500px" border=10>
+<img src="images/MainImages/Kitten.jpg"border=10 width="400px" border=10>
+    <div width="100%" style="text-align: center">
 <button><b><a href=Login.php">LOG IN</a>
             </b></button>  <br>
     <button><b><a href="AboutUs.html">ABOUT US</a></b></button> <br>
