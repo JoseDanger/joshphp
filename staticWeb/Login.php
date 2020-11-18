@@ -19,7 +19,7 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
     $server = "http://fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
     $dbusername = " a7vsd5p699o1mif7";
     $dbpassword = "uu5y3xzmj399r0ua";
-    $dbname = "k2nfay1osz1i59kc";
+    $dbname = "m2bsi2ekjab5fc3a";
 
     $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 

@@ -5,9 +5,9 @@
     <title>PET FOODS</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
-    <centre>
-<body>
 
+<body>
+<centre>
 
 <h1><B>PET FOODS</B></h1><br>
 <p></p>
