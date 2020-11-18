@@ -9,7 +9,8 @@
 <h1><b>LOGIN</b></h1>
     <br><br>
         <div width="100%" style="text-align: center"><img src="images/MainImages/OtherPetsReal.bmp"width = 500px border=10 /></div>
-<?php
+<br><br>
+        <?php
 if (isset($_POST["username"]) && isset($_POST["password"])) {
     $username = $_POST["username"];
     $password = $_POST["password"];
