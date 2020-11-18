@@ -14,7 +14,8 @@ $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 //2. create a query
 // take input from selected category;
 if (isset($_GET["category"])) {
-    echo "<h1>" . $_GET["category"] . "</h1>";
+    $categoryName = getCategoryNameFromCategoryID($_GET["category"]);
+    echo "<h1>".$categoryName . "</h1>";
 
     $sql = "select * from PRODUCT where Category = " . $_GET["category"];
 } else {
@@ -53,18 +54,18 @@ function createDatabaseConnection(){
     return $conn;
 }
 
-function getProductNameByProductID($productID){
+function getCategoryNameFromCategoryID($CategoryID){
     //1. create a db connection
     $conn = createDatabaseConnection();
     //2. query
-    $sql = "select name from Category where id=$productID";
+    $sql = "select Name from Category where ID=$CategoryID";
 
     //3. run query
     $result = mysqli_query($conn, $sql);
 
     //4. show result
     while ($row = $result->fetch_assoc()){
-        $name = $row["name"];
+        $name = $row["Name"];
     }
     return $name;
 }
