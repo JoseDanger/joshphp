@@ -26,7 +26,7 @@
 
 
     <div width="100%" style="text-align: center">
-    </div>
+
             <img src="images/MainImages/main.jpg" width = 500px border=10 />
         <br><br>
 
