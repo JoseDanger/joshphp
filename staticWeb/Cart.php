@@ -52,7 +52,7 @@ if (isset($_SESSION["userID"])){
 
 function createDatabaseConnection(){
     //1. connect to database
-    $server = "http://fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com/";
+    $server = "http://fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
     $dbusername = "t8jnow42fmp1smpt";
     $dbpassword = "fdavedw769oxw5pd";
     $dbname = "k2nfay1osz1i59kc";
