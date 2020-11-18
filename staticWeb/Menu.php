@@ -12,8 +12,8 @@
     <div width="100%" style="text-align: center">
 <button><b><a href=Login.php">LOG IN</a></button><br><br>
     <button><b><a href="AboutUs.html">ABOUT US</a></b></button>
-    <button><b><a href="Registrationform.php">REGISTER ACCOUNT</a></b></button><br><br>
-    <br><button><b><a href="Registrationpage.php">YOUR ACCOUNT</a></b></button>
+    <button><b><a href="Registrationform.php">REGISTER ACCOUNT</a></b></button>
+        <button><b><a href="Registrationpage.php">YOUR ACCOUNT</a></b></button>
     <button><b><a href="Cart.php">CART</a></b></button>
 
     <?php
