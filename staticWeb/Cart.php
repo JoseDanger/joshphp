@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
 </head><div width="100%" style="text-align: center">
-    <img src="images/MainImages/Cart.jpg"border=10 width="500px" border=10> </div>
+    <img src="images/MainImages/Cart.jpg"border=10 width="500px" border=10>
 
 <?php
 
