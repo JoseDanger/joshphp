@@ -49,7 +49,7 @@ echo "<a href='index.php'>HOME</a>";
     <button><b><a href="Registrationpage.php"> BACK TO TOP</a> </b></button>
     <Button><b><a href="index.php">HOME PAGE</a></b></Button>
     <br><br><br><br>
-    </body>
+    </body></centre>
     <footer>
         <b><p>Copyright &copy; 2020, ALL RIGHTS RESERVED</p></b>
         <br>

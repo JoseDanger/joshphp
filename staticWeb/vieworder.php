@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
     <meta charset="UTF-8">
     <title>PET FOODS</title>
     <link rel="stylesheet" href="css/style.css">
