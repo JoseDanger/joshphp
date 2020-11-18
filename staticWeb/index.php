@@ -13,13 +13,11 @@
 
 <div>
     <button><b><a href="Login.php">LOG IN </a></b></button>
-    <button><img id="checkout" width="25px" src="images/Cart etc/search-icon-large.jpg.png">
-        <b>SEARCH</b></Button>
-    <Button><b><a href="" REGISTER ACCOUNT</b></Button>
+    <Button><b><a href="Registrationform.php"REGISTER ACCOUNT</b></Button>
     <br><br>
-    <Button><b><a href=""> YOUR ACCOUNT</b></a></Button>
+    <Button><b><a href="Login.php"> YOUR ACCOUNT</b></a></Button>
     <Button><img id="cartImage" width="25px" src="images/Cart etc/Cart.jpg"><a href="Cart.php"><b>CART/CHECKOUT</b></Button>
-    <Button><b><a href=""> WISHLIST</b></a></Button></div>
+
 
 
     <br><br>
