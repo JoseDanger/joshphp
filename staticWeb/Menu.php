@@ -8,7 +8,7 @@
 <body>
 <div width="100%" style="text-align: center">
     <h1><b>MENU</b></h1><br>
-    <img src="images/MainImages/Kitten.jpg"border=10 width="300px" border=10></div><br><br><br>
+    <img src="images/MainImages/Kitten.jpg"border=10 width="300px" border=10></div><br><br>
     <div width="100%" style="text-align: center">
 <button><b><a href=Login.php">LOG IN</a>
             </b></button>
@@ -25,8 +25,6 @@
     }
     ?>
 
-
-<button><b><a href="Menu.php"> BACK TO TOP</a> </b></button>
 <Button><b><a href="index.php">HOME PAGE</a></b></Button>
 <br><br><br><br>
 </body></center>
