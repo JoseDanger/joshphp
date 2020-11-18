@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <title>LOGIN</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
+    <script src="js/script.js"></script><centre>
 <h1><b>LOGIN</b></h1>
-    <br><centre>
+    <br>
 <?php
 if (isset($_POST["username"]) && isset($_POST["password"])) {
     $username = $_POST["username"];
