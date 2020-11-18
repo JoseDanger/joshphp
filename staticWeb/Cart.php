@@ -2,12 +2,12 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>CATEGORY</title>
+    <title>CATEGORY</title><br>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
 </head><div width="100%" style="text-align: center">
     <h1><b>CART</b></h1>
-    <img src="images/MainImages/Cart.jpg"border=10 width="500px" border=10>
+    <img src="images/MainImages/Cart.jpg"border=10 width="500px" border=10><br>
 
 <?php
 
