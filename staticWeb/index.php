@@ -52,7 +52,7 @@
             <br>
             <br>
             <br>
-</body>
+</body></centre>
             <footer>
                 <b><p>Copyright &copy; 2020, ALL RIGHTS RESERVED</p></b>
                 <br>
@@ -77,7 +77,7 @@
                     </tr>
                 </table>
                 </p></b>
-            </footer></centre>
+            </footer>
 
 
 
