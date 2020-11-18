@@ -23,7 +23,7 @@
         <br>
         <input name="password" type="password" placeholder="Password">
         <br>
-       <button><label>ADDRESS</label></button>
+       <label>ADDRESS</label>
         <br>
         <textarea name="address" cols="50" rows="4"></textarea>
         <br>
