@@ -115,7 +115,7 @@ $i = 0;
     //clear my shopping cart
 $_SESSION["orderedProductIDs"] = [];
 $_SESSION["orderedProductQtys"] = [];
-?>
+?><br><br><br>
     <button><b><a href="checkout.php"> BACK TO TOP</a> </b></button>
     <Button><b><a href="index.php">HOME PAGE</a></b></Button>
     <br><br><br><br>
