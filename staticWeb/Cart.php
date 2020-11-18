@@ -7,7 +7,7 @@
     <script src="js/script.js"></script>
 </head><div width="100%" style="text-align: center">
     <h1><b>CART</b></h1><br>
-    <img src="images/MainImages/Cart.jpg"border=10 width="500px" border=10><br>
+    <img src="images/MainImages/Cart.jpg"border=10 width="500px" border=10><br><br><br>
 
 <?php
 
