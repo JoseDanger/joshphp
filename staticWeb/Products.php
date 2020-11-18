@@ -37,4 +37,4 @@ while ($row = $result->fetch_assoc()){
             <input type="submit" value="Add to cart">
         </form>
     </div>
-    <?php
+    <?php}
