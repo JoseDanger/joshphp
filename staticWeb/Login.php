@@ -52,7 +52,7 @@ if (!isset($_SESSION["userID"])) {
          <input name="username" type="text" placeholder="Username"><Br><br>
         <input name="password" type="password" placeholder="Password">
         <Br><br>
-        <input type="submit" value="LOGIN"
+        <button><input type="submit" value="LOGIN"></button>
     </form>
     <br>
     <?php
