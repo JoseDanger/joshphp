@@ -13,6 +13,7 @@
         <div width="100%" style="text-align: center">
             <img src="images/MainImages/CartReal.jpg.bmp" width = 500px border=10 /></div>
         <br><br>
+        <p>Please Fill In The Details Below</p><br><br>
     <form method="post" action="register.php">
         <input name="firstname" type="text" placeholder="First Name">
         <br>
