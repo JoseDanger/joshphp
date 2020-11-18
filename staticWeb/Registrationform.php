@@ -2,14 +2,15 @@
     <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
         <title>Register Form</title>
     </head>
     <body>
     <center>
-        <button>
-        <h1><b>CREATE AN ACCOUNT</b></h1></button>
+
+        <h1><b>CREATE AN ACCOUNT</b></h1>
     <form method="post" action="register.php">
-        <h3>FIRST NAME</h3>
         <input name="firstname" type="text" placeholder="First Name">
         <br>
         <input name="lastname" type="text" placeholder="Last Name">
