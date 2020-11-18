@@ -16,7 +16,7 @@
     <Button><b><a href="Registrationform.php">REGISTER ACCOUNT</b></Button>
     <Button><b><a href="Login.php"> YOUR ACCOUNT</b></a></Button><br><br>
     <Button><img id="cartImage" width="25px" src="images/Cart etc/Cart.jpg"><a href="Cart.php"><b>
-                CART/CHECKOUT</b></Button>
+                CART/CHECKOUT</b></Button></div>
 
 
 

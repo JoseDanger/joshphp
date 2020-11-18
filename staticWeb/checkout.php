@@ -5,9 +5,8 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
     <div width="100%" style="text-align: center">
-
     <h1><b>CHECKOUT</b></h1>
-        <img src="images/MainImages/checkOut.jpg" width = 500px border=10 /></div>
+        <img src="images/MainImages/checkOut.jpg" width = 500px border=10 />
 <?php
 @session_start();
 

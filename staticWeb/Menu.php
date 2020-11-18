@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><div width="100%" style="text-align: center">
+<head>
     <meta charset="UTF-8">
     <title>CAT FOOD</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
+    <script src="js/script.js"></script><div width="100%" style="text-align: center">
 </head>
 <body>
-<center>
+<img src="images/MainImages/Kitten.jpg"border=10 width="500px" border=10> </div>
 <button><b><a href=Login.php">LOG IN</a>
             </b></button>  <br>
     <button><b><a href="AboutUs.html">ABOUT US</a></b></button> <br>
