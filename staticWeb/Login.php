@@ -5,7 +5,8 @@
     <title>LOGIN</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
-
+<h1><b>LOGIN</b></h1>
+    <br>
 <?php
 if (isset($_POST["username"]) && isset($_POST["password"])) {
     $username = $_POST["username"];
@@ -48,9 +49,9 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
 if (!isset($_SESSION["userID"])) {
     ?>
     <form action="<?php $_SERVER["PHP_SELF"]; ?>" method="post">
-        <input name="username" type="text" placeholder="Username">
-        <input name="password" type="password" placeholder="Password">
-        <input type="submit" value="Post">
+        <input name="username" type="text" placeholder="Username"><Br><br>
+        <input name="password" type="password" placeholder="Password"><Br><br>
+        <input type="submit" value="LOGIN">
     </form>
     <?php
 }else{
