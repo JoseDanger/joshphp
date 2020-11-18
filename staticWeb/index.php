@@ -64,9 +64,9 @@
             <br>
             <b><p>
                 <div width="100%" style="text-align: center">
-                    <table>
+                    <table width="100%">
                         <tr>
-                            <td>
+                            <td width="50%">
                                 Health Food <br>
                                 Best Products <br>
                                 Pet Food Brands <br>
