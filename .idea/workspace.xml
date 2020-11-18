@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/AboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/AboutUs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Products.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticWeb/Registrationform.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Registrationform.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticWeb/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Registrationpage.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Registrationpage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/checkout.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +102,7 @@
       <workItem from="1605552345623" duration="10495000" />
       <workItem from="1605565758859" duration="2562000" />
       <workItem from="1605640982582" duration="14441000" />
-      <workItem from="1605665899392" duration="4430000" />
+      <workItem from="1605665899392" duration="5390000" />
     </task>
     <servers />
   </component>

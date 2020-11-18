@@ -10,6 +10,7 @@
     <center>
 
         <h1><b>CREATE AN ACCOUNT</b></h1>
+        <br><br><br><br>
         <div width="100%" style="text-align: center">
             <img src="images/MainImages/CartReal.jpg.bmp" width = 500px border=10 /></div>
         <br><br>
@@ -32,30 +33,33 @@
     </form>
 
 </center>
-</body><br><br><br>
-<footer>
-    <b><p>Copyright &copy; 2020, ALL RIGHTS RESERVED</p></b>
-    <br>
-    <b><p>
-        <table>
-            <tr>
-                <ul>
-                    Health Food <br>
-                    Best Products <br>
-                    Pet Food Brands <br>
-                    Join Our Team <br>
-                    Our Donations <br>
-                </ul>
-                <ul>
-                    Donate To Dogs In Need <br>
-                    Re-Home Your Dog <br>
-                    Get A Re-Homed Dog (Save A Life) <br>
-                    Contact Us <br>
-                    Train Your Pet <br>
+    <button><b><a href="Registrationform.php"> BACK TO TOP</a> </b></button>
+    <Button><b><a href="index.php">HOME PAGE</a></b></Button>
+    <br><br><br><br>
+    </body>
+    <footer>
+        <b><p>Copyright &copy; 2020, ALL RIGHTS RESERVED</p></b>
+        <br>
+        <b><p>
+            <table>
+                <tr>
+                    <ul>
+                        Health Food <br>
+                        Best Products <br>
+                        Pet Food Brands <br>
+                        Join Our Team <br>
+                        Our Donations <br>
+                    </ul>
+                    <ul>
+                        Donate To Dogs In Need <br>
+                        Re-Home Your Dog <br>
+                        Get A Re-Homed Dog (Save A Life) <br>
+                        Contact Us <br>
+                        Train Your Pet <br>
 
-                </ul>
-            </tr>
-        </table>
-        </p></b>
-</footer></center>
+                    </ul>
+                </tr>
+            </table>
+            </p></b>
+    </footer></center>
 </html>
