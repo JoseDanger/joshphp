@@ -23,7 +23,6 @@
     <?php
     }
     ?>
-<br>
 <Button><b><a href="index.php">HOME PAGE</a></b></Button>
 <br><br><br><br>
 </body></center>
