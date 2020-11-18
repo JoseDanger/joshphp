@@ -48,11 +48,12 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
 
 if (!isset($_SESSION["userID"])) {
     ?>
-    <form action="<?php $_SERVER["PHP_SELF"]; ?>" method="post">
-        <centre> <input name="username" type="text" placeholder="Username"></centre><Br><br>
-        <centre><input name="password" type="password" placeholder="Password"></centre><Br><br>
-        <centre><input type="submit" value=<b>"LOGIN"</centre>b></centre>
-    </form>
+    <centre><form action="<?php $_SERVER["PHP_SELF"]; ?>" method="post">
+         <input name="username" type="text" placeholder="Username"><Br><br>
+        <input name="password" type="password" placeholder="Password">
+        <Br><br>
+        <input type="submit" value="LOGIN"
+    </form></centre>
     <br>
     <?php
 }else{
