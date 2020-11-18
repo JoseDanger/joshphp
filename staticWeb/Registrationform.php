@@ -19,9 +19,9 @@
         <br>
         <input name="password" type="password" placeholder="Password">
         <br>
-        <label><h3>ADRESS</h3></label>
+        <label><h3>ADDRESS</h3></label>
         <br>
-        <textarea name="address" cols="50" rows="10"></textarea>
+        <textarea name="address" cols="50" rows="2"></textarea>
         <br>
         <input name="phone" type="text" placeholder="Phone Number">
         <br>
