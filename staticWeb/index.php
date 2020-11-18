@@ -12,8 +12,8 @@
 <p></p>
 
 <div>
-    <button><b><a href="Login.php">LOG IN </a></b></button>
-    <Button><b><a href="Registrationform.php"REGISTER ACCOUNT</b></Button>
+    <button><b><a href="Login.php">LOGIN </a></b></button>
+    <Button><b><a href="Registrationform.php">REGISTER ACCOUNT</b></Button>
     <br><br>
     <Button><b><a href="Login.php"> YOUR ACCOUNT</b></a></Button>
     <Button><img id="cartImage" width="25px" src="images/Cart etc/Cart.jpg"><a href="Cart.php"><b>CART/CHECKOUT</b></Button>
