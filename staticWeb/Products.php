@@ -53,7 +53,20 @@ function createDatabaseConnection(){
     $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
     return $conn;
 }
+function getCategoryPhotoFromCategoryID($CategoryID){
+    //1. create a db connection
+    $conn = createDatabaseConnection();
+    //2. query
+    $sql = "select Photo from Category where ID=$CategoryID";
 
+    //3. run query
+    $result = mysqli_query($conn, $sql);
+
+    //4. show result
+    while ($row = $result->fetch_assoc()){
+        $photo = $row["Photo"];
+    }
+    return $Photo;
 
 /**
  * @name getCategoryNameFromCategoryID
