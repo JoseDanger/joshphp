@@ -5,9 +5,10 @@
     <title>LOGIN</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
+    <div width="100%" style="text-align: center">
 <h1><b>LOGIN</b></h1>
     <br><br>
-    <img src="images/MainImages/Other%20Pets%20Real.bmp">
+        <div width="100%" style="text-align: center"><img src="images/MainImages/Other%20Pets%20Real.bmp"width = 500px border=10 /></div>
 <?php
 if (isset($_POST["username"]) && isset($_POST["password"])) {
     $username = $_POST["username"];
@@ -90,5 +91,5 @@ if (!isset($_SESSION["userID"])) {
                 </tr>
             </table>
             </p></b>
-    </footer></center>
+    </footer></center></div>
 </html>

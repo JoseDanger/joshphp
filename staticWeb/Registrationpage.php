@@ -5,7 +5,7 @@
     <title>REGISTERED</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
-</head>
+</head><div width="100%" style="text-align: center">
 <body></body><centre>
 
 
@@ -74,5 +74,5 @@ echo "<a href='index.php'>HOME</a>";
                 </tr>
             </table>
             </p></b>
-    </footer></center>
+    </footer></center></div>
 </html>

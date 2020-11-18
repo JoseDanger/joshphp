@@ -4,6 +4,7 @@
     <title>PET FOODS</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
+    <div width="100%" style="text-align: center">
     <header>CHECKOUT</header>
     <h1><b>CHECKOUT</b></h1>
 <?php
@@ -143,5 +144,5 @@ $_SESSION["orderedProductQtys"] = [];
                 </tr>
             </table>
             </p></b>
-    </footer></center>
+    </footer></center></div>
 </html>

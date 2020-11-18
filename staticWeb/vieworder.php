@@ -4,6 +4,7 @@
     <title>PET FOODS</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
+    <div width="100%" style="text-align: center">
 <?php
 @session_start();
 $userID = $_SESSION["userID"];
@@ -69,5 +70,4 @@ $sql2 = "select * from orderedProducts where orderID = ".$row["orderedProductsID
             </tr>
         </table>
         </p></b>
-</footer></center>
-</html>
+</footer></center></div>

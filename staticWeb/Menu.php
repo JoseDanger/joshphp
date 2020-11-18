@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><div width="100%" style="text-align: center">
     <meta charset="UTF-8">
     <title>CAT FOOD</title>
     <link rel="stylesheet" href="css/style.css">
@@ -52,5 +52,5 @@
             </tr>
         </table>
         </p></b>
-</footer></center>
+</footer></center></div>
 </html>

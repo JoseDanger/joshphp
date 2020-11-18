@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="css/style.css">
         <script src="js/script.js"></script>
         <title>Register Form</title>
-    </head>
+    </head><div width="100%" style="text-align: center">
     <body>
     <center>
 
@@ -61,5 +61,5 @@
                 </tr>
             </table>
             </p></b>
-    </footer></center>
+    </footer></center></div>
 </html>

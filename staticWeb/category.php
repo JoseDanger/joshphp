@@ -5,6 +5,7 @@
     <title>CATEGORY</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
+    <div width="100%" style="text-align: center">
 </head>
 <?php
 
@@ -60,5 +61,5 @@ while($row = $result->fetch_assoc()){
             </tr>
         </table>
         </p></b>
-</footer></center>
+</footer></center></div>
 </html>
