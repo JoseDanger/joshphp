@@ -52,14 +52,14 @@ if (!isset($_SESSION["userID"])) {
         <input name="username" type="text" placeholder="Username"><Br><br>
         <input name="password" type="password" placeholder="Password"><Br><br>
         <input type="submit" value="LOGIN">
-    </form>
+    </form></centre>
     <?php
 }else{
 
     echo '<a href="logout.php">logout</a>';
 
 }
-?>
+?><centre>
     <button><b><a href="Login.php"> BACK TO TOP</a> </b></button>
     <Button><b><a href="index.php">HOME PAGE</a></b></Button>
     <br><br><br><br></centre>
