@@ -52,7 +52,7 @@
             <br>
             <br>
             <br>
-    </div>
+
 
             <footer>
                 <b><p>Copyright &copy; 2020, ALL RIGHTS RESERVED</p></b>
@@ -67,6 +67,7 @@
                             Join Our Team <br>
                             Our Donations <br>
                         </td>
+                        <br>
                         <td>
                             Donate To Dogs In Need <br>
                             Re-Home Your Dog <br>
