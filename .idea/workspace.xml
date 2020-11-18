@@ -10,6 +10,7 @@
       <change afterPath="$PROJECT_DIR$/staticWeb/categories/otherPets/Rodent.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticWeb/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticWeb/Registrationform.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Registrationform.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticWeb/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +102,7 @@
       <workItem from="1605552345623" duration="10495000" />
       <workItem from="1605565758859" duration="2562000" />
       <workItem from="1605640982582" duration="14441000" />
-      <workItem from="1605665899392" duration="793000" />
+      <workItem from="1605665899392" duration="1092000" />
     </task>
     <servers />
   </component>

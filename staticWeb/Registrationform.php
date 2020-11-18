@@ -8,57 +8,33 @@
 </head>
 <body>
 <center>
-<form method="post" action="Registrationform.php">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Register Form</title>
+    </head>
+    <body>
+    <form method="post" action="register.php">
+        <input name="firstname" type="text" placeholder="First Name">
+        <br>
+        <input name="lastname" type="text" placeholder="Last Name">
+        <br>
+        <input name="username" type="text" placeholder="Username">
+        <br>
+        <input name="password" type="password" placeholder="Password">
+        <br>
+        <label>Adress</label>
+        <br>
+        <textarea name="address" cols="50" rows="10"></textarea>
+        <br>
+        <input name="phone" type="text" placeholder="Phone Number">
+        <br>
+        <input type="submit" value="Register">
 
-    <div class="container">
-        <br><br>
-        <h1><b>REGISTER</b></h1>
-        <p>Please fill in this form to create an account.</p>
-        <hr>
-<br><br>
-        <div width="100%" style="text-align: center">
-            <img src="images/MainImages/main.jpg" width = 500px border=10 /></div>
-<?php
-$firstname = $_POST["firstname"];
-$lastname = $_POST["lastname"];
-$username = $_POST["username"];
-$password = $_POST["password"];
-$address = $_POST["address"];
-$phone = $_POST["phone"];
-if ($firstname == "" || $lastname==""){
-    //1. connect to database
-    $server = "klbcedmmqp7w17ik.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-    $dbusername = "t8jnow42fmp1smpt";
-    $dbpassword = "fdavedw769oxw5pd";
-    $dbname = "k2nfay1osz1i59kc";
-
-    $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
-
-//2. create a query
-    $sql = "INSERT INTO `users`(`id`, `firstname`, `lastname`, `username`, `password`, `address`, `phoneNumber`) 
-VALUES (NULL,'$firstname','$lastname','$username','$password','$address','$phone')";
-
-//3. run the query
-    if (mysqli_query($conn, $sql)){
-        echo "data has been inserted";
-    }else{
-        echo "data has not been inserted";
-    }
-}
-else{
-    echo "there should not be any empty fields";
-}
-
-
-echo "<a href='index.php'>Home</a>";
-?>
-        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-        <br><br> <button type="submit" class="registeration"><b>REGISTER</b></button>
-    </div>
-
-    <div class="container signin">
-        <p>Already have an account? <br>
-            <button<a href="Old Page Design/loginForm.html">SIGN IN</a></button></p>
+    </form>
+    </body>
+    </html>
 
 </center>
 </body><br><br><br>
