@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e87b1855-a61b-472b-81e3-a052fb233bb5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticWeb/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/staticWeb/Products.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,17 +53,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\staticWeb" />
-      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase" />
-      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase\sessionexercise" />
-      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\staticWeb\images\MainImages" />
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\staticWeb\categories" />
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\staticWeb" />
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\staticWeb\Old Page Design" />
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\staticWeb" />
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase" />
+      <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp\PhpandDatabase\sessionexercise" />
       <recent name="C:\Users\joshua cramond\PhpstormProjects\joshphp" />
     </key>
   </component>
@@ -98,7 +97,7 @@
       <workItem from="1605665899392" duration="14121000" />
       <workItem from="1605714070920" duration="672000" />
       <workItem from="1605714791028" duration="1108000" />
-      <workItem from="1605728011509" duration="8295000" />
+      <workItem from="1605728011509" duration="8611000" />
     </task>
     <servers />
   </component>
