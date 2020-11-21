@@ -58,7 +58,7 @@ function getCategoryPhotoFromCategoryID($CategoryID)
     //1. create a db connection
     $conn = createDatabaseConnection();
     //2. query
-    $sql = "select Photo from Category where ID=$CategoryID";
+    $sql = "`Photo`SELECT * FROM `Category` WHERE 1";
 
     //3. run query
     $result = mysqli_query($conn, $sql);
@@ -90,3 +90,8 @@ function getCategoryNameFromCategoryID($CategoryID)
     }
     return $name;
 }
+/*
+ * @Name trying to put pet food into table
+ * @param $
+ */
+function GetCategory
