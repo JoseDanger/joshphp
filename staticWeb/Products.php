@@ -58,7 +58,7 @@ function getCategoryPhotoFromCategoryID($CategoryID)
     //1. create a db connection
     $conn = createDatabaseConnection();
     //2. query
-    $sql = "`Photo`SELECT * FROM `Category` WHERE 1";
+    $sql = "UPDATE `Category` SET `ID`=[value-1],`Name`=[value-2],`Photo`=[value-3] WHERE 1";
 
     //3. run query
     $result = mysqli_query($conn, $sql);
