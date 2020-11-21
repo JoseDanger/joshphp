@@ -94,4 +94,3 @@ function getCategoryNameFromCategoryID($CategoryID)
  * @Name trying to put pet food into table
  * @param $
  */
-function GetCategory
