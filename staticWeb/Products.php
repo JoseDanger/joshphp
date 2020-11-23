@@ -14,6 +14,8 @@ $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 //2. create a query
 // take input from selected category;
 if (isset($_GET["category"])) {
+    $photo = getCategoryPhotoFromCategoryID($_GET["category"]);
+    echo "<img src='$photo'>";
     $categoryName = getCategoryNameFromCategoryID($_GET["category"]);
     echo "<h1>".$categoryName . "</h1>";
 
