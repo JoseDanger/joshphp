@@ -7,10 +7,10 @@
 <script src="js/script.js"></script>
 
 <body>
-<centre>
-    <?php
-     include login.php
-    ?>
+<>
+   <div
+           include login.php></div>
+
 
     <h1><B>PET FOODS</B></h1><br>
     <p></p>
