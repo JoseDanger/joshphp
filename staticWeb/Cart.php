@@ -30,7 +30,10 @@ while ($i<sizeof($orderedProductIDs)){
     $total = $total + ($price*$orderedProductQty);
     $i++;
 }
-echo "<p>Total: $total</p>";
+
+?>
+    <p>Total: $<?php echo $total; ?></p>
+    <?php
 //if ($total > ???){
 //
 //}else{
