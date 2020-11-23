@@ -79,7 +79,7 @@ function getProductNameByProductID($productID){
 
     //4. show result
     while ($row = $result->fetch_assoc()){
-        $name = $row["name"];
+        $name = $row["ProductName"];
     }
     return $name;
 }
@@ -94,13 +94,13 @@ function getProductPriceByProductID($productID){
     //1. create a db connection
     $conn = createDatabaseConnection();
     //2. query
-    $sql = "select price from products where id=$productID";
+    $sql = "select PricePerUnit from PRODUCT where ID=$productID";
     //3. run query
     $result = mysqli_query($conn, $sql);
 
     //4. show result
     while ($row=$result->fetch_assoc()){
-        $price = $row["price"];
+        $price = $row["PricePerUnit"];
     }
     return $price;
 }
