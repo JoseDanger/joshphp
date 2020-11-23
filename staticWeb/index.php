@@ -95,7 +95,7 @@
                             </td>
                         </tr>
                     </table>
-</centre>
+
 </p></b>
 </footer></centre></div>
 
