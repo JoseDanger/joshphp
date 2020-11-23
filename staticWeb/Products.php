@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+<title>PET FOODS</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js"></script>
 <?php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -96,3 +103,8 @@ function getCategoryNameFromCategoryID($CategoryID)
  * @Name trying to put pet food into table
  * @param $
  */
+ ?>
+<div id="FooterDiv">
+    <?php include "footer.php"; ?>
+</div>
+</html
