@@ -33,14 +33,14 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
 
     //4. show result
     if ($result->num_rows == 1) {
-        echo "you have login ";
+        echo "you have loged in ";
         while ($row = $result->fetch_assoc()) {
-            echo $row["firstname"];
+            echo $row["FirstName"];
             //start a session
             @session_start();
             //set a session variable
-            $_SESSION["userID"] = $row["id"];
-            $_SESSION["firstname"] = $row["firstname"];
+            $_SESSION["ID"] = $row["ID"];
+            $_SESSION["FirstName"] = $row["FirstName"];
         }
     } else {
         echo "wrong username or password";
@@ -61,7 +61,7 @@ if (!isset($_SESSION["userID"])) {
     <?php
 }else{
 
-    echo '<a href="logout.php">logout</a>';
+    echo '<a href="Logout.php">logout</a>';
 
 }
 ?><br><br>

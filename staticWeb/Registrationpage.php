@@ -29,7 +29,7 @@ $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 //create a query
 
 $sql="INSERT INTO `users`(`ID`, `FirstName`, `lastName`, `username`, `password`, `address`, `phoneNumber`) 
-VALUES (NULL ,'$firstname','$lastname','$username','$password','$address','$phone')";
+VALUES (NULL ,'$FirstName','$lastName','$username','$password','$address','$phoneNumber')";
 
 //3. run the query
 if (mysqli_query($conn, $sql)) {

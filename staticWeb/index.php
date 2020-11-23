@@ -8,6 +8,9 @@
 
 <body>
 <centre>
+    <?php
+     include login.php
+    ?>
 
     <h1><B>PET FOODS</B></h1><br>
     <p></p>
