@@ -59,6 +59,10 @@
         <br>
     </div>
 
+    <div id="categoryDiv">
+        <?php include "category.php"; ?>
+    </div>
+
     <center>
         <footer>
             <b><p>Copyright &copy; 2020, ALL RIGHTS RESERVED</p></b>
