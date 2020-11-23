@@ -8,9 +8,12 @@
 
 <body>
 <>
-   <div
-           include login.php></div>
-
+<div id="LoginDiv">
+    <?php include "Login.php"; ?>
+</div>
+<div id="RegistrationDiv">
+    <?php include "Registrationform.php"; ?>
+</div>
 
     <h1><B>PET FOODS</B></h1><br>
     <p></p>
