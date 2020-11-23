@@ -65,7 +65,7 @@ if (!isset($_SESSION["userID"])) {
 
 }
 ?><br><br>
-    <Button><b><a href="index.php">HOME PAGE</a></b></Button>
+    <Button><b><a href="HomePage.php">HOME PAGE</a></b></Button>
     <br><br><br><br>
     </body>
    </center></div>

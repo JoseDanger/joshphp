@@ -14,7 +14,7 @@
         <button><b><a href="Registrationpage.php">YOUR ACCOUNT</a></b></button>
     <button><b><a href="Registrationform.php">REGISTER ACCOUNT</a></b></button><br><br>
         <button><b><a href="Cart.php">CART</a></b></button>
-        <Button><b><a href="index.php">HOME PAGE</a></b></Button>
+        <Button><b><a href="HomePage.php">HOME PAGE</a></b></Button>
         <button><b><a href="AboutUs.html">ABOUT US</a></b></button>
 
 
