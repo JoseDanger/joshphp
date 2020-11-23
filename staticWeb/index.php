@@ -7,13 +7,13 @@
 <script src="js/script.js"></script>
 
 <body>
-<>
-<div id="LoginDiv">
-    <?php include "Login.php"; ?>
-</div>
 <div id="RegistrationDiv">
     <?php include "Registrationform.php"; ?>
 </div>
+<div id="LoginDiv">
+    <?php include "Login.php"; ?>
+</div>
+
 
     <h1><B>PET FOODS</B></h1><br>
     <p></p>
