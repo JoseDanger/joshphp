@@ -13,6 +13,9 @@
     <br><br>
     <Button><img id="cartImage" width="25px" src="images/Cart etc/Cart.jpg"><a href="Cart.php"><b>
                 CART</b></Button>
+    <div id="categoryDiv">
+        <?php include "category.php"; ?>
+    </div>
 
 
     <br><br>
