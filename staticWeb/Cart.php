@@ -72,7 +72,7 @@ function getProductNameByProductID($productID){
     //1. create a db connection
     $conn = createDatabaseConnection();
     //2. query
-    $sql = "select name from PRODUCT where id=$productID";
+    $sql = "select name from PRODUCT where ID=$productID";
 
     //3. run query
     $result = mysqli_query($conn, $sql);
