@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <meta charset="UTF-8">
-<title>PET FOODS</title>
 <link rel="stylesheet" href="css/style.css">
 <script src="js/script.js"></script>
+<title>PET FOODS</title>
+
+<div width="100%" style="text-align: center">
 <?php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
