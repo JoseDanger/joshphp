@@ -26,7 +26,7 @@ if (isset($_GET["category"])) {
     $categoryName = getCategoryNameFromCategoryID($_GET["category"]);
     echo "<h1>".$categoryName . "</h1>";
 
-    $sql = "select * from PRODUCT where Category = " . $_GET["Category"];
+    $sql = "select * from PRODUCT where Category ="  . $_GET["Category"];
 } else {
     $sql = "select * from PRODUCT";
 }
