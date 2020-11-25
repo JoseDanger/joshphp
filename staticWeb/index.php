@@ -15,6 +15,9 @@
 <div id="LoginDiv">
     <?php include "Login.php"; ?>
 </div>
+    <div id="LogoutDiv">
+        <?php include "Logout.php"; ?>
+    </div>
 
 
     <h1><B>PET FOODS</B></h1><br>

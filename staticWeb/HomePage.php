@@ -11,6 +11,8 @@
 <p></p>
 <div width="100%" style="text-align: center">
     <br><br>
+    <Button><a href="lOGOUT"><b>LOGOUT</b></a></Button>
+    <Button><a href="lOGOUT"><b>LOGOUT</b></a></Button><br><br>
     <Button><img id="cartImage" width="25px" src="images/Cart etc/Cart.jpg"><a href="Cart.php"><b>
                 CART</b></Button>
 
@@ -50,6 +52,7 @@
 
     <br><br><br>
     <Button><a href="index.php"><b>BACK TO TOP</b></a></Button>
+
     </center>
     <br>
     <br>
