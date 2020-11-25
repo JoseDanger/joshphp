@@ -9,15 +9,14 @@
 <body>
 <div width="100%" style="text-align: center">
 <button><b><a href="Login.php">LOGIN</a></b></button>
+    <Button><a href="lOGOUT"><b>LOGOUT</b></a></Button>
 <div id="RegistrationDiv">
     <?php include "Registrationform.php"; ?>
 </div>
 <div id="LoginDiv">
     <?php include "Login.php"; ?>
 </div>
-    <div id="LogoutDiv">
-        <?php include "Logout.php"; ?>
-    </div>
+
 
 
     <h1><B>PET FOODS</B></h1><br>
