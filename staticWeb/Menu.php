@@ -21,7 +21,7 @@
     <?php
           if (isset($_SESSION["userID"])){
         ?>
-    <button><b></b><a href="">MY ORDERS</a></b></button>
+    <button><b></b><a href="myOrders.php">MY ORDERS</a></b></button>
     <?php
     }
     ?>
