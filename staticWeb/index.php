@@ -9,7 +9,7 @@
 <body>
 <div width="100%" style="text-align: center">
 <button><b><a href="Login.php">LOGIN</a></b></button>
-    <Button><a href="lOGOUT"><b>LOGOUT</b></a></Button>
+    <Button><a href="Logout.php"><b>LOGOUT</b></a></Button>
 <div id="RegistrationDiv">
     <?php include "Registrationform.php"; ?>
 </div>
