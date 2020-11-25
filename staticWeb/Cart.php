@@ -11,9 +11,6 @@
 <h2>If you're purchase is over $300 DELIVERY IS FREE!</h2>
 <?php
 
-@session_start();
-
-
 
 $orderedProductIDs = $_SESSION["orderedProductIDs"];
 $orderedProductQtys = $_SESSION["orderedProductQtys"];
