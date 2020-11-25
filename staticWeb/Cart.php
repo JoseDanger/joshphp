@@ -10,9 +10,7 @@
     <img src="images/MainImages/Cart.jpg"border=10 width="500px" border=10><br><br><br>
 <h2>If you're purchase is over $300 DELIVERY IS FREE!</h2>
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+
 @session_start();
 
 
