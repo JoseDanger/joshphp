@@ -58,61 +58,64 @@ if (isset($_SESSION["userID"])){
     echo "you need to login";
 }
     @session_start();
-    if (isset($_SESSION["userID"])){
+    if (isset($_SESSION["userID"])) {
 
-function createDatabaseConnection(){
-    //1. connect to database
-    $server = "fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-    $dbusername = "a7vsd5p699o1mif7";
-    $dbpassword = "uu5y3xzmj399r0ua";
-    $dbname = "m2bsi2ekjab5fc3a";
+        function createDatabaseConnection()
+        {
+            //1. connect to database
+            $server = "fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+            $dbusername = "a7vsd5p699o1mif7";
+            $dbpassword = "uu5y3xzmj399r0ua";
+            $dbname = "m2bsi2ekjab5fc3a";
 
-    $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
-    return $conn;
-}
+            $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
+            return $conn;
+        }
 
-/**
- * @name getProductNameByProductID
- * @param $productID
- * @return product name
- */
-function getProductNameByProductID($productID){
-    //1. create a db connection
-    $conn = createDatabaseConnection();
-    //2. query
-    $sql = "select ProductName from PRODUCT where ID=$productID";
+        /**
+         * @name getProductNameByProductID
+         * @param $productID
+         * @return product name
+         */
+        function getProductNameByProductID($productID)
+        {
+            //1. create a db connection
+            $conn = createDatabaseConnection();
+            //2. query
+            $sql = "select ProductName from PRODUCT where ID=$productID";
 
-    //3. run query
-    $result = mysqli_query($conn, $sql);
+            //3. run query
+            $result = mysqli_query($conn, $sql);
 
-    //4. show result
-    while ($row = $result->fetch_assoc()){
-        $name = $row["ProductName"];
-    }
-    return $name;
-}
+            //4. show result
+            while ($row = $result->fetch_assoc()) {
+                $name = $row["ProductName"];
+            }
+            return $name;
+        }
 
 
-/**
- * @name getProductPriceByProductID
- * @param $productID
- * @return product price
- */
-function getProductPriceByProductID($productID){
-    //1. create a db connection
-    $conn = createDatabaseConnection();
-    //2. query
-    $sql = "select PricePerUnit from PRODUCT where ID=$productID";
-    //3. run query
-    $result = mysqli_query($conn, $sql);
+        /**
+         * @name getProductPriceByProductID
+         * @param $productID
+         * @return product price
+         */
+        function getProductPriceByProductID($productID)
+        {
+            //1. create a db connection
+            $conn = createDatabaseConnection();
+            //2. query
+            $sql = "select PricePerUnit from PRODUCT where ID=$productID";
+            //3. run query
+            $result = mysqli_query($conn, $sql);
 
-    //4. show result
-    while ($row=$result->fetch_assoc()){
-        $price = $row["PricePerUnit"];
-    }
-    return $price;
-}
-?><br><br>
+            //4. show result
+            while ($row = $result->fetch_assoc()) {
+                $price = $row["PricePerUnit"];
+            }
+            return $price;
+        }
+    }?><br><br>
         <button><b><a href="Cart.php"> BACK TO TOP</a> </b></button>
     <button><b><a href="Login.php"> LOGIN</a> </b></button>
         <Button><b><a href="HomePage.php">HOME PAGE</a></b></Button>
