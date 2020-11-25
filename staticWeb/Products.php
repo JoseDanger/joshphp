@@ -6,14 +6,7 @@
 <title>PET FOODS</title>
 
 <div width="100%" style="text-align: center">
-    <Button><a href="HomePage.php"><b>HOME PAGE</b></a></Button>
-    <Button><a href="Cart.php"><b>CART</b></a></Button>
-    <br><br>
-
-    <button><b></b><a href="myOrders.php">MY ORDERS</a></b></button>
-    <?php
-
-
+<?php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -23,7 +16,6 @@ $server = "fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 $dbusername = "a7vsd5p699o1mif7";
 $dbpassword = "uu5y3xzmj399r0ua";
 $dbname = "m2bsi2ekjab5fc3a";
-
 
 $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 
@@ -35,8 +27,7 @@ if (isset($_GET["category"])) {
     $categoryName = getCategoryNameFromCategoryID($_GET["category"]);
     echo "<h1>".$categoryName . "</h1>";
 
-    $sql = "select * from PRODUCT where Category = " . $_GET["category"];
-    //echo $sql;
+    $sql = "select * from PRODUCT where Category = " . $_GET["Category"];
 } else {
     $sql = "select * from PRODUCT";
 }
@@ -59,9 +50,9 @@ while ($row = $result->fetch_assoc()) {
             <input type="submit" value="Add to cart">
         </form>
     </div>
-
+    <?php
 }
-<?php
+
 function createDatabaseConnection(){
     //1. connect to database
     $server = "fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
@@ -113,7 +104,7 @@ function getCategoryNameFromCategoryID($CategoryID)
  * @Name trying to put pet food into table
  * @param $
  */
-}?>
+ ?>
 <div id="FooterDiv">
     <?php include "footer.php"; ?>
 </div>
