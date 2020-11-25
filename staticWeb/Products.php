@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta charset="UTF-8">
 <link rel="stylesheet" href="css/style.css">
 <script src="js/script.js"></script>
-<meta charset="UTF-8">
-<title>PET FOODS</title>
-
 <title>PET FOODS</title>
 
 <div width="100%" style="text-align: center">
+    <Button><a href="HomePage.php"><b>HOME PAGE</b></a></Button>
+    <Button><a href="Cart.php"><b>CART</b></a></Button>
     <?php
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
@@ -26,6 +26,7 @@
         $categoryName = getCategoryNameFromCategoryID($_GET["category"]);
         echo "<h1>".$categoryName . "</h1>";
         $sql = "select * from PRODUCT where Category = " . $_GET["category"];
+        //echo $sql;
     } else {
         $sql = "select * from PRODUCT";
     }
