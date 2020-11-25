@@ -6,49 +6,49 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
 </head><div width="100%" style="text-align: center">
-<body></body><centre>
+    <body></body><centre>
 
 
-<?php
-$firstname = $_POST["firstname"];
-$lastname = $_POST["lastname"];
-$username = $_POST["username"];
-$password = $_POST["password"];
-$address = $_POST["address"];
-$phone = $_POST["phonenumber"];
+        <?php
+        $firstname = $_POST["firstname"];
+        $lastname = $_POST["lastname"];
+        $username = $_POST["username"];
+        $password = $_POST["password"];
+        $address = $_POST["address"];
+        $phone = $_POST["phonenumber"];
 
 
-//1. connect to database
-$server = "fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-$dbusername = "a7vsd5p699o1mif7";
-$dbpassword = "uu5y3xzmj399r0ua";
-$dbname = "m2bsi2ekjab5fc3a";
+        //1. connect to database
+        $server = "fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+        $dbusername = "a7vsd5p699o1mif7";
+        $dbpassword = "uu5y3xzmj399r0ua";
+        $dbname = "m2bsi2ekjab5fc3a";
 
-$conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
+        $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 
-//create a query
+        //create a query
 
-$sql="INSERT INTO `users`(`ID`, `FirstName`, `lastName`, `username`, `password`, `address`, `phoneNumber`) 
+        $sql="INSERT INTO `users`(`ID`, `FirstName`, `lastName`, `username`, `password`, `address`, `phoneNumber`) 
 VALUES (NULL ,'$FirstName','$lastName','$username','$password','$address','$phoneNumber')";
 
-//3. run the query
-if (mysqli_query($conn, $sql)) {
-    ;
+        //3. run the query
+        if (mysqli_query($conn, $sql)) {
+            ;
 
-    echo "data has been inserted";
-    echo"<a href='index.php'>HOME</a>";
-}else{
-    echo "data has not been inserted, please try again";
-}
-echo "<button><b><a href='Registrationform.php'>TRY AGAIN</a></b></button>";
-?><br><br>
+            echo "data has been inserted";
+            echo"<a href='index.php'>HOME</a>";
+        }else{
+            echo "data has not been inserted, please try again";
+        }
+        echo "<button><b><a href='Registrationform.php'>TRY AGAIN</a></b></button>";
+        ?><br><br>
         <div width="100%" style="text-align: center">
             <img src="images/MainImages/RegiserAccount.jpg" width = 450px border=10 /></div>
-<br><br>
+        <br><br>
         <button><b><a href='HomePage.php'>HOMPAGE</a></b></button>
 
-    <br><br><br><br>
-    </body></centre>
+        <br><br><br><br>
+        </body></centre>
     <footer>
         <b><p>Copyright &copy; 2020, ALL RIGHTS RESERVED</p></b>
         <br>

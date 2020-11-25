@@ -11,9 +11,9 @@
 <p></p>
 <div width="100%" style="text-align: center">
     <br><br>
-
     <Button><img id="cartImage" width="25px" src="images/Cart etc/Cart.jpg"><a href="Cart.php"><b>
                 CART</b></Button>
+
 
     <br><br>
 </div>
@@ -50,7 +50,6 @@
 
     <br><br><br>
     <Button><a href="index.php"><b>BACK TO TOP</b></a></Button>
-
     </center>
     <br>
     <br>
@@ -64,34 +63,34 @@
 </div>
 
 
-    <!--bold text: <strong>-->
-    <!--underline: <em> -->
-    <!--itallic: <u> -->
-    <!--small: <small>-->
-    <!--highlight <mark>-->
-    <!--subscript: <sub> lowers text-->
-    <!--superscipt <sup> highers text-->
-    <!-- line Breaks: self closing anduse <br>-->
-    <!-- highlight: <mark>-->
-    <!--lines to seperate your contect: <hr>-->
-    <!-- grouping elements <div> -->
-    <!--attributes CLasses andID,s: identify a group of elements for multiple purposes-->
-    <!--tables: <Table> -->
-    <!-- table headings: <thead>-->
-    <!-- table row: <tr> -->
-    <!-- table data underneath: <td> -->
-    <!-- butttons: <button>-->
+<!--bold text: <strong>-->
+<!--underline: <em> -->
+<!--itallic: <u> -->
+<!--small: <small>-->
+<!--highlight <mark>-->
+<!--subscript: <sub> lowers text-->
+<!--superscipt <sup> highers text-->
+<!-- line Breaks: self closing anduse <br>-->
+<!-- highlight: <mark>-->
+<!--lines to seperate your contect: <hr>-->
+<!-- grouping elements <div> -->
+<!--attributes CLasses andID,s: identify a group of elements for multiple purposes-->
+<!--tables: <Table> -->
+<!-- table headings: <thead>-->
+<!-- table row: <tr> -->
+<!-- table data underneath: <td> -->
+<!-- butttons: <button>-->
 
-    <!-- Form Select List -->
-    <!-- Form: <Form>-->
-    <!-- Lable: <Lable>-->
-    <!-- link to home page:
-                            <nav>
-                                    <ul>
-                                        <li><a href="index.php">Home</a><li>
-                                    </ul>
-                            <nav>
-    -->
+<!-- Form Select List -->
+<!-- Form: <Form>-->
+<!-- Lable: <Lable>-->
+<!-- link to home page:
+                        <nav>
+                                <ul>
+                                    <li><a href="index.php">Home</a><li>
+                                </ul>
+                        <nav>
+-->
 
 
 </body>

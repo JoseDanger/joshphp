@@ -8,15 +8,13 @@
 
 <body>
 <div width="100%" style="text-align: center">
-<button><b><a href="Login.php">LOGIN</a></b></button>
-    <Button><a href="Logout.php"><b>LOGOUT</b></a></Button>
-<div id="RegistrationDiv">
-    <?php include "Registrationform.php"; ?>
-</div>
-<div id="LoginDiv">
-    <?php include "Login.php"; ?>
-</div>
-
+    <button><b><a href="Login.php">LOGIN</a></b></button>
+    <div id="RegistrationDiv">
+        <?php include "Registrationform.php"; ?>
+    </div>
+    <div id="LoginDiv">
+        <?php include "Login.php"; ?>
+    </div>
 
 
     <h1><B>PET FOODS</B></h1><br>
@@ -29,6 +27,8 @@
         <br><br>
         <Button><img id="cartImage" width="25px" src="images/Cart etc/Cart.jpg"><a href="Cart.php"><b>
                     CART</b></Button>
+
+
         <br><br>
     </div>
 
@@ -66,39 +66,39 @@
         <br>
         <br>
     </div>
-<div id="FooterDiv">
-    <?php include "footer.php"; ?>
-</div>
+    <div id="FooterDiv">
+        <?php include "footer.php"; ?>
+    </div>
 
 
-<!--bold text: <strong>-->
-<!--underline: <em> -->
-<!--itallic: <u> -->
-<!--small: <small>-->
-<!--highlight <mark>-->
-<!--subscript: <sub> lowers text-->
-<!--superscipt <sup> highers text-->
-<!-- line Breaks: self closing anduse <br>-->
-<!-- highlight: <mark>-->
-<!--lines to seperate your contect: <hr>-->
-<!-- grouping elements <div> -->
-<!--attributes CLasses andID,s: identify a group of elements for multiple purposes-->
-<!--tables: <Table> -->
-<!-- table headings: <thead>-->
-<!-- table row: <tr> -->
-<!-- table data underneath: <td> -->
-<!-- butttons: <button>-->
+    <!--bold text: <strong>-->
+    <!--underline: <em> -->
+    <!--itallic: <u> -->
+    <!--small: <small>-->
+    <!--highlight <mark>-->
+    <!--subscript: <sub> lowers text-->
+    <!--superscipt <sup> highers text-->
+    <!-- line Breaks: self closing anduse <br>-->
+    <!-- highlight: <mark>-->
+    <!--lines to seperate your contect: <hr>-->
+    <!-- grouping elements <div> -->
+    <!--attributes CLasses andID,s: identify a group of elements for multiple purposes-->
+    <!--tables: <Table> -->
+    <!-- table headings: <thead>-->
+    <!-- table row: <tr> -->
+    <!-- table data underneath: <td> -->
+    <!-- butttons: <button>-->
 
-<!-- Form Select List -->
-<!-- Form: <Form>-->
-<!-- Lable: <Lable>-->
-<!-- link to home page:
-                        <nav>
-                                <ul>
-                                    <li><a href="index.php">Home</a><li>
-                                </ul>
-                        <nav>
--->
+    <!-- Form Select List -->
+    <!-- Form: <Form>-->
+    <!-- Lable: <Lable>-->
+    <!-- link to home page:
+                            <nav>
+                                    <ul>
+                                        <li><a href="index.php">Home</a><li>
+                                    </ul>
+                            <nav>
+    -->
 
 
 </body>

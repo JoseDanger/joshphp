@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="css/style.css">
 <script src="js/script.js"></script>
 <div width="100%" style="text-align: center">
-<body>
+    <body>
 
     <footer>
         <b><p>Copyright &copy; 2020, ALL RIGHTS RESERVED</p></b>
@@ -29,11 +29,9 @@
                             Get A Re-Homed Dog (Save A Life) <br>
                             Contact Us <br>
                             Train Your Pet <br>
-
                         </td>
                     </tr>
                 </table>
-
             </p></b>
     </footer></div>
 </html>

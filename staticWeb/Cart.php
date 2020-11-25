@@ -15,12 +15,6 @@
     error_reporting(E_ALL);
     @session_start();
 
-    //1. create a database connection
-    $server = "fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-    $dbusername = "a7vsd5p699o1mif7";
-    $dbpassword = "uu5y3xzmj399r0ua";
-    $dbname = "m2bsi2ekjab5fc3a";
-
     $orderedProductIDs = $_SESSION["orderedProductIDs"];
     $orderedProductQtys = $_SESSION["orderedProductQtys"];
 
@@ -37,30 +31,42 @@
         $total = $total + ($price*$orderedProductQty);
         $i++;
     }
+
     ?>
     <p>Total: $<?php echo $total; ?></p>
     <?php
     if ($total > 300){ $total = $total;
+
     }else{ $total =$total + $delivery;};
+
+
     if (isset($_SESSION["userID"])){
         ?>
+
         <form action="checkout.php" method="post">
             <textarea name="ShippingAddress" rows="10" cols="50"></textarea>
             <input type="submit" value="CheckOut"
+
         </form>
+
+
+
         <?php
     }else{
         echo "you need to login";
     }
+
     function createDatabaseConnection(){
         //1. connect to database
         $server = "fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
         $dbusername = "a7vsd5p699o1mif7";
         $dbpassword = "uu5y3xzmj399r0ua";
         $dbname = "m2bsi2ekjab5fc3a";
+
         $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
         return $conn;
     }
+
     /**
      * @name getProductNameByProductID
      * @param $productID
@@ -71,14 +77,18 @@
         $conn = createDatabaseConnection();
         //2. query
         $sql = "select ProductName from PRODUCT where ID=$productID";
+
         //3. run query
         $result = mysqli_query($conn, $sql);
+
         //4. show result
         while ($row = $result->fetch_assoc()){
             $name = $row["ProductName"];
         }
         return $name;
     }
+
+
     /**
      * @name getProductPriceByProductID
      * @param $productID
@@ -91,6 +101,7 @@
         $sql = "select PricePerUnit from PRODUCT where ID=$productID";
         //3. run query
         $result = mysqli_query($conn, $sql);
+
         //4. show result
         while ($row=$result->fetch_assoc()){
             $price = $row["PricePerUnit"];
@@ -122,9 +133,10 @@
                         Get A Re-Homed Dog (Save A Life) <br>
                         Contact Us <br>
                         Train Your Pet <br>
+
                     </ul>
                 </tr>
             </table>
             </p></b>
     </footer></center></div>
-</html>livery;};
+</html>
