@@ -8,7 +8,7 @@
 </head><div width="100%" style="text-align: center">
     <h1><b>CART</b></h1><br>
     <img src="images/MainImages/Cart.jpg"border=10 width="500px" border=10><br><br><br>
-    <h2>If you're purchase is over $300 DELIVERY IS FREE!</h2>
+
     <?php
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
@@ -18,7 +18,6 @@
     $orderedProductIDs = $_SESSION["orderedProductIDs"];
     $orderedProductQtys = $_SESSION["orderedProductQtys"];
 
-    $delivery = 15;
     $i = 0;
     $total = 0;
     while ($i<sizeof($orderedProductIDs)){
@@ -35,11 +34,11 @@
     ?>
     <p>Total: $<?php echo $total; ?></p>
     <?php
-    if ($total > 300){ $total = $total;
-
-    }else{ $total =$total + $delivery;};
-
-
+    //if ($total > ???){
+    //
+    //}else{
+    //
+    //}(Give Message for Either)
     if (isset($_SESSION["userID"])){
         ?>
 
