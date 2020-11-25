@@ -10,6 +10,13 @@
     <Button><a href="Cart.php"><b>CART</b></a></Button>
     <br><br>
 <?php
+
+          if (isset($_SESSION["userID"])){
+        ?>
+    <button><b></b><a href="myOrders.php">MY ORDERS</a></b></button>
+    <?php
+    }
+
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -55,9 +62,9 @@ while ($row = $result->fetch_assoc()) {
             <input type="submit" value="Add to cart">
         </form>
     </div>
-    <?php
-}
 
+}
+<?php
 function createDatabaseConnection(){
     //1. connect to database
     $server = "fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
@@ -109,7 +116,7 @@ function getCategoryNameFromCategoryID($CategoryID)
  * @Name trying to put pet food into table
  * @param $
  */
- ?>
+}?>
 <div id="FooterDiv">
     <?php include "footer.php"; ?>
 </div>
