@@ -7,6 +7,7 @@
 <script src="js/script.js"></script>
 
 <body>
+<div width="100%" style="text-align: center">
 <button><b><a href="Login.php">LOGIN</a></b></button>
 <div id="RegistrationDiv">
     <?php include "Registrationform.php"; ?>
