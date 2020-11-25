@@ -8,6 +8,7 @@
 <div width="100%" style="text-align: center">
     <Button><a href="HomePage.php"><b>HOME PAGE</b></a></Button>
     <Button><a href="Cart.php"><b>CART</b></a></Button>
+    <br><br>
 <?php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
