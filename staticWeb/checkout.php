@@ -13,6 +13,7 @@
 $orderedProductIDs = $_SESSION["orderedProductIDs"];
 $orderedProductQtys = $_SESSION["orderedProductQtys"];
 
+$delivery = 15;
 $i = 0;
 $total = 0;
 while ($i<sizeof($orderedProductIDs)){
@@ -24,7 +25,11 @@ echo "<p>Name: $productName Qty: $orderedProductQty Unit Price: $price
     Price: ".($price*$orderedProductQty)."</p>";
 $total = $total + ($price*$orderedProductQty);
 $i++;
+echo "$total>300" = $total;
+else "$total + $delivery";
+
 }
+
 echo "<p>Total: $total</p>";
 
 function createDatabaseConnection(){
@@ -115,34 +120,14 @@ $i = 0;
     //clear my shopping cart
 $_SESSION["orderedProductIDs"] = [];
 $_SESSION["orderedProductQtys"] = [];
+
 ?><br><br><br>
     <button><b><a href="checkout.php"> BACK TO TOP</a> </b></button>
     <Button><b><a href="HomePage.php">HOME PAGE</a></b></Button>
     <br><br><br><br>
-    </body>
-    <footer>
-        <b><p>Copyright &copy; 2020, ALL RIGHTS RESERVED</p></b>
-        <br>
-        <b><p>
-            <table>
-                <tr>
-                    <ul>
-                        Health Food <br>
-                        Best Products <br>
-                        Pet Food Brands <br>
-                        Join Our Team <br>
-                        Our Donations <br>
-                    </ul>
-                    <ul>
-                        Donate To Dogs In Need <br>
-                        Re-Home Your Dog <br>
-                        Get A Re-Homed Dog (Save A Life) <br>
-                        Contact Us <br>
-                        Train Your Pet <br>
-
-                    </ul>
-                </tr>
-            </table>
-            </p></b>
-    </footer></center></div>
+</center></div>
+    <div id="FooterDiv">
+        <?php include "footer.php"; ?>
+    </div>
+</body>
 </html>
