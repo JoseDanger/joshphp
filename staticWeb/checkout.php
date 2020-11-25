@@ -25,8 +25,10 @@ echo "<p>Name: $productName Qty: $orderedProductQty Unit Price: $price
     Price: ".($price*$orderedProductQty)."</p>";
 $total = $total + ($price*$orderedProductQty);
 $i++;
+if (
 echo "$total>300" = $total;
 else "$total + $delivery";
+);
 
 }
 

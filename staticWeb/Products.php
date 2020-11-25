@@ -28,6 +28,7 @@ if (isset($_GET["category"])) {
     echo "<h1>".$categoryName . "</h1>";
 
     $sql = "select * from PRODUCT where Category = " . $_GET["Category"];
+    echo $sql;
 } else {
     $sql = "select * from PRODUCT";
 }
