@@ -6,6 +6,8 @@
 <title>PET FOODS</title>
 
 <div width="100%" style="text-align: center">
+    <button><b><a href="HomePage.php"> HOME PAGE </a> </b></button>
+    <button><b><a href="Cart.php"> CART </a> </b></button>
 <?php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
