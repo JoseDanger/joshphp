@@ -10,9 +10,6 @@
     <Button><a href="Cart.php"><b>CART</b></a></Button>
     <br><br>
     <?php
-    ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    error_reporting(E_ALL);
 
     //1. connect to database
     $server = "fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
