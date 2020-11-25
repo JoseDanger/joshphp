@@ -59,7 +59,7 @@ if (isset($_SESSION["userID"])){
 }
     @session_start();
     if (isset($_SESSION["userID"])){
-    ?>
+
 function createDatabaseConnection(){
     //1. connect to database
     $server = "fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
